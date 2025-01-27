@@ -19,8 +19,10 @@ if not st.session_state.authenticated:
     )
     
     # Welcome message and login form
-    st.title("Welcome to SuperPro Web App")
-    st.markdown("Please log in to access the tools.")
+    st.markdown("""
+        <h1 style='text-align: center;'>Welcome to SuperPro Web App</h1>
+        <p style='text-align: center;'>Please log in to access the tools.</p>
+        """, unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns([1,1,1])
     with col2:
