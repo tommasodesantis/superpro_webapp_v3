@@ -1,0 +1,16 @@
+[theme]
+primaryColor = "#0066cc"  # Professional blue
+backgroundColor = "#ffffff"  # Clean white background
+secondaryBackgroundColor = "#f0f2f6"  # Light gray for contrast
+textColor = "#262730"  # Dark gray for text
+font = "sans serif"
+
+[server]
+enableXsrfProtection = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[global]
+showWarningOnDirectExecution = false

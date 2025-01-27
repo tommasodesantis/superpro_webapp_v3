@@ -1,0 +1,8 @@
+streamlit>=1.31.0
+pandas>=2.2.0
+python-docx>=1.1.0
+openai>=1.10.0
+r2r>=0.7.0
+xlrd>=2.0.1
+openpyxl>=3.1.2
+streamlit-authenticator>=0.2.3
