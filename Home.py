@@ -1,29 +1,41 @@
 import streamlit as st
-import streamlit_authenticator as stauth
-
-# Get credentials from secrets
-username = st.secrets["authentication"]["username"]
-password = st.secrets["authentication"]["password"]
-
-# Create an authentication object
-authenticator = stauth.Authenticate(
-    credentials={"usernames": {username: {"password": password}}},
-    cookie_name="streamlit_auth_cookie",
-    key="auth_key"
-)
-
-# Show login form
-name, authentication_status, username = authenticator.login("Login", "main")
-
-if authentication_status == False:
-    st.error("Username/password is incorrect")
-    st.stop()
-elif authentication_status == None:
-    st.warning("Please enter your username and password")
-    st.stop()
 
 # Page config
 st.set_page_config(page_title="SuperPro Designer Web App", page_icon="🏭", layout="wide")
+
+# Initialize session state for authentication
+if "authenticated" not in st.session_state:
+    st.session_state.authenticated = False
+
+# Hide sidebar when not authenticated
+if not st.session_state.authenticated:
+    st.markdown(
+        """
+        <style>
+        [data-testid="stSidebar"] {display: none}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    
+    # Welcome message and login form
+    st.title("Welcome to SuperPro Web App")
+    st.markdown("Please log in to access the tools.")
+    
+    col1, col2, col3 = st.columns([1,1,1])
+    with col2:
+        username = st.text_input("Username", key="username_input", label_visibility="visible")
+        password = st.text_input("Password", type="password", key="password_input", label_visibility="visible")
+        
+        if username and password:
+            if username == st.secrets["authentication"]["username"] and password == st.secrets["authentication"]["password"]:
+                st.session_state.authenticated = True
+                st.success("Logged in successfully!")
+                st.rerun()
+            else:
+                st.error("Invalid username or password")
+                st.stop()
+        st.stop()
 
 # Title and description
 st.title("SuperPro Designer Web App")

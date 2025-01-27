@@ -1,4 +1,8 @@
 import streamlit as st
+from utils.check_auth import check_auth
+
+# Check authentication
+check_auth()
 import pandas as pd
 import io
 import os

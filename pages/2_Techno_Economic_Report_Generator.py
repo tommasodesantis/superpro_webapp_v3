@@ -1,4 +1,8 @@
 import streamlit as st
+from utils.check_auth import check_auth
+
+# Check authentication
+check_auth()
 import pandas as pd
 import io
 import os
@@ -23,7 +27,7 @@ with st.expander("Instructions", expanded=False):
     - Provides data-driven recommendations for optimization
 
     Required files:
-    1. **Initial Design Report (IDR)**: Contains process parameters, equipment specifications, and material balances
+    1. **Input Data Report (IDR)**: Contains process parameters, equipment specifications, and material balances
     2. **Economic Evaluation Report (EER)**: Includes capital costs, operating expenses, and economic metrics
 
     The generated report will include:
@@ -288,7 +292,7 @@ st.subheader("Upload Files")
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("##### Initial Design Report (IDR)")
+    st.markdown("##### Input Data Report (IDR)")
     idr_file = st.file_uploader("Upload IDR file", type=['xlsx', 'xls'], key="idr_uploader")
     
 with col2:

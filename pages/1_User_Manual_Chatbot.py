@@ -1,9 +1,13 @@
 import streamlit as st
 import os
 from r2r import R2RClient
+from utils.check_auth import check_auth
 
 # Page config
 st.set_page_config(page_title="User Manual Chatbot", page_icon="📚")
+
+# Check authentication
+check_auth()
 
 # Title and description
 st.title("SuperPro User Manual Chatbot")
