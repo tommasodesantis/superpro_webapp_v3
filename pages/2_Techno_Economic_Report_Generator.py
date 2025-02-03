@@ -51,6 +51,18 @@ def init_openrouter():
         }
     )
 
+def init_requesty():
+    """Initialize OpenAI client with Requesty base URL"""
+    return openai.OpenAI(
+        base_url="https://router.requesty.ai/v1",
+        api_key=st.secrets["REQUESTY_API_KEY"],
+        default_headers={
+            "HTTP-Referer": "https://github.com/yourusername/yourrepo",
+            "X-Title": "TEA Analysis Tool",
+            "Authorization": f"Bearer {st.secrets['REQUESTY_API_KEY']}"
+        }
+    )
+
 def process_excel_file(file):
     """Process Excel file and return selected sheets as dataframes."""
     try:
@@ -314,7 +326,7 @@ if idr_file and eer_file:
                 eer_data = process_excel_file(eer_file)
                 eer_text = "\n\n".join(dataframe_to_text(df) for df in eer_data.values())
                 
-                # Initialize OpenRouter client
+                # Initialize OpenRouter client for technical sections
                 client = init_openrouter()
                 
                 # Generate technical sections
@@ -370,6 +382,9 @@ Generate a concise and relevant title for this techno-economic analysis.
                 )
                 technical_sections = technical_response.choices[0].message.content
                 
+                # Initialize Requesty client for economic sections
+                requesty_client = init_requesty()
+                
                 # Generate economic sections
                 st.text("Generating economic analysis...")
                 economic_prompt = f"""You are a professional technical writer specializing in bioprocess engineering. Based on the provided economic data, analyze the economic aspects and generate the remaining sections of a techno-economic report.
@@ -377,10 +392,11 @@ Generate a concise and relevant title for this techno-economic analysis.
 IMPORTANT: Format your response using proper markdown syntax:
 - Use # for main headers (e.g., # 3. Results)
 - Use ## for subheaders (e.g., ## 3.1 Capital Investment)
-- Use - for bullet points
-- Do NOT use bold text (**) for headers
-- Do NOT use numbered sections without # or ##
+- Write in clear, flowing paragraphs
+- Use data points from the provided information to support your analysis
 - Each section must start with a proper header using # or ##
+- Maintain a professional, analytical tone throughout
+- Focus solely on analyzing the provided data
 
 Previous Sections Context:
 {technical_sections}
@@ -394,60 +410,41 @@ Generate the following sections using markdown formatting:
 
 ## 3.1 Capital Investment Analysis
 ## 3.1.1 Equipment Investment
-- Detailed breakdown of equipment costs
-- Specifications and capacities
-- Installation requirements
+Provide a comprehensive analysis of the equipment investment requirements. Detail the major equipment costs and their relative contributions to the total investment. Explain the significance of key equipment items and their associated costs. Include specific cost figures from the data to support your analysis.
 
 ## 3.1.2 Facility Investment
-- Building and construction costs
-- Utility systems
-- Support infrastructure
+Present a detailed breakdown of facility investment components. Analyze the distribution of costs across building, construction, and infrastructure elements. Explain how these investments support the process operations. Include specific numbers from the data to illustrate the scale and importance of each investment category.
 
 ## 3.2 Operating Costs
 ## 3.2.1 Direct Costs
-- Raw materials costs and consumption rates
-- Labor requirements and costs
-- Utilities consumption and costs
+Analyze the direct operating costs, explaining how raw materials, labor, and utilities contribute to the overall operational expenses. Provide specific cost figures and consumption rates from the data. Explain the relationships between different cost components and their impact on the process economics.
 
 ## 3.2.2 Indirect Costs
-- Facility-dependent costs
-- Maintenance expenses
-- Waste treatment costs
+Examine the indirect costs associated with facility operation and maintenance. Analyze how these costs relate to the direct operational expenses. Include specific figures from the data to demonstrate the relative importance of different indirect cost categories.
 
 ## 3.3 Key Performance Indicators
 ## 3.3.1 Production Metrics
-- Unit production costs
-- Production capacity
-- Resource utilization
+Present a detailed analysis of the production-related performance indicators. Explain how production capacity relates to resource utilization and operational efficiency. Use specific figures from the data to illustrate the process performance.
 
 ## 3.3.2 Financial Metrics
-- Profitability indicators
-- Return on investment
-- Payback period
+Analyze the key financial indicators that demonstrate the project's economic performance. Explain the relationships between different financial metrics and what they reveal about the process economics. Include specific numbers from the data to support your analysis.
 
 # 4. Discussion
 ## 4.1 Cost Analysis
-- Analyze specific cost drivers
-- Evaluate economic viability
-- Compare with industry benchmarks
+Synthesize the findings from the capital and operating cost analyses. Identify and explain the major cost drivers based on the data. Evaluate how different cost components interact and influence overall economic performance.
 
 ## 4.2 Process Economics
-- Capital vs operating costs
-- Process parameters impact
-- Optimization opportunities
+Analyze the relationship between capital investments and operating costs. Examine how process parameters affect economic performance. Identify potential areas for cost optimization based on the analyzed data.
 
 # 5. Conclusions and Recommendations
 ## 5.1 Key Findings
-- Summarize critical results
-- Present feasibility assessment
+Summarize the most significant economic findings from the analysis. Present clear conclusions about the process economics based on the analyzed data. Focus on the most important metrics and their implications.
 
 ## 5.2 Recommendations
-- Prioritized improvements
-- Implementation strategy
-- Risk considerations"""
+Provide specific, data-driven recommendations for improving economic performance. Prioritize suggestions based on their potential impact and feasibility. Focus on practical improvements that are supported by the economic analysis."""
 
-                economic_response = client.chat.completions.create(
-                    model="google/gemini-flash-1.5-8b",
+                economic_response = requesty_client.chat.completions.create(
+                    model="cline/o3-mini",
                     messages=[{"role": "user", "content": economic_prompt}]
                 )
                 

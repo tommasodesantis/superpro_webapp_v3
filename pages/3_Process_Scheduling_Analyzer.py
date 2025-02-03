@@ -53,14 +53,15 @@ with st.expander("Instructions", expanded=False):
     - Once the Gantt chart is open, go to **File** ▶ **Export to MS Project**. This option will create an XML file formatted specifically for MS Project that can be saved as .xsl.                     
      """)
 
-def init_openrouter():
-    """Initialize OpenAI client with OpenRouter base URL"""
+def init_requesty():
+    """Initialize OpenAI client with Requesty base URL"""
     return openai.OpenAI(
-        base_url="https://openrouter.ai/api/v1",
-        api_key=st.secrets["OPENROUTER_API_KEY"],
+        base_url="https://router.requesty.ai/v1",
+        api_key=st.secrets["REQUESTY_API_KEY"],
         default_headers={
             "HTTP-Referer": "https://github.com/yourusername/yourrepo",
-            "X-Title": "Process Scheduling Analysis Tool"
+            "X-Title": "Process Scheduling Analysis Tool",
+            "Authorization": f"Bearer {st.secrets['REQUESTY_API_KEY']}"
         }
     )
 
@@ -238,8 +239,8 @@ if uploaded_file:
             # Parse the content
             formatted_text = parse_scheduling_data(content)
             
-            # Initialize OpenRouter client
-            client = init_openrouter()
+            # Initialize Requesty client
+            client = init_requesty()
             
             # Generate analysis
             st.text("Generating analysis...")
@@ -360,7 +361,7 @@ Data:
 For each area, carefully examine the tabular data and provide detailed insights and recommendations. Reference specific procedures, equipment, and timing data from the tables to support your analysis. Pay special attention to the relationships between procedures, their timing, and equipment utilization patterns shown in the data tables."""
 
             response = client.chat.completions.create(
-                model="anthropic/claude-3.5-sonnet:beta",
+                model="cline/o3-mini",
                 messages=[{"role": "user", "content": analysis_prompt}]
             )
             analysis_content = response.choices[0].message.content
