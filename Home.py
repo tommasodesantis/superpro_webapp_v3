@@ -47,6 +47,7 @@ Welcome to the SuperPro Designer Web App! This comprehensive toolkit is designed
 ### 🤖 User Manual Chatbot
 - AI-powered assistant for instant SuperPro Designer guidance
 - Get answers to specific questions about features and functionalities
+- Able to answer in all the most widely spoken languages
 - Access step-by-step instructions and best practices
 - Learn from practical examples and use cases
 
