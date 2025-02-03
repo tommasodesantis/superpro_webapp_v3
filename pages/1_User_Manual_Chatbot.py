@@ -18,10 +18,10 @@ st.set_page_config(page_title="User Manual Chatbot", page_icon="📚")
 check_auth()
 
 # Title and description
-st.title("SuperPro User Manual Chatbot")
+st.title("SuperPro User Manual Chatbot (multilingual)")
 with st.expander("Instructions", expanded=False):
     st.markdown("""
-    Your intelligent assistant for SuperPro Designer guidance! This AI-powered chatbot helps you:
+    Your intelligent and multilingual assistant for SuperPro Designer guidance! This AI-powered chatbot helps you:
 
     - Find specific information from the SuperPro Designer manual instantly
     - Get step-by-step instructions for complex operations
