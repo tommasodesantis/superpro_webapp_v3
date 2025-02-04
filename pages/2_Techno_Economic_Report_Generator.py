@@ -58,8 +58,7 @@ def init_requesty():
         api_key=st.secrets["REQUESTY_API_KEY"],
         default_headers={
             "HTTP-Referer": "https://github.com/yourusername/yourrepo",
-            "X-Title": "TEA Analysis Tool",
-            "Authorization": f"Bearer {st.secrets['REQUESTY_API_KEY']}"
+            "X-Title": "TEA Analysis Tool"
         }
     )
 

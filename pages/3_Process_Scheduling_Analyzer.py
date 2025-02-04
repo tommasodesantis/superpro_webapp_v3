@@ -60,8 +60,7 @@ def init_requesty():
         api_key=st.secrets["REQUESTY_API_KEY"],
         default_headers={
             "HTTP-Referer": "https://github.com/yourusername/yourrepo",
-            "X-Title": "Process Scheduling Analysis Tool",
-            "Authorization": f"Bearer {st.secrets['REQUESTY_API_KEY']}"
+            "X-Title": "Process Scheduling Analysis Tool"
         }
     )
 
