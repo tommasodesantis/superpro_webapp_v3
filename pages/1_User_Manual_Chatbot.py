@@ -1,15 +1,9 @@
 import streamlit as st
 import os
-import json
-import requests
-import aiohttp
-import nest_asyncio
-from typing import List, Dict, Any, Union, AsyncGenerator
+import openai
+from typing import List, Dict, Any, Union
 from r2r import R2RClient
 from utils.check_auth import check_auth
-
-# Enable nested asyncio
-nest_asyncio.apply()
 
 # Page config
 st.set_page_config(page_title="User Manual Chatbot", page_icon="📚")
@@ -56,74 +50,54 @@ Context: {context}
 
 Response:"""
 
-def parse_sse_chunk(chunk: bytes) -> str:
-    """Parse a chunk of SSE data and extract the content."""
-    if not chunk:
-        return ""
-    
-    try:
-        data = json.loads(chunk.decode('utf-8').split('data: ')[1])
-        if data.get('choices') and len(data['choices']) > 0:
-            delta = data['choices'][0].get('delta', {})
-            return delta.get('content', '')
-    except (json.JSONDecodeError, IndexError, KeyError):
-        pass
-    return ""
+def init_requesty():
+    """Initialize OpenAI client with Requesty base URL"""
+    return openai.OpenAI(
+        base_url="https://router.requesty.ai/v1",
+        api_key=st.secrets["REQUESTY_API_KEY"],
+        default_headers={
+            "HTTP-Referer": "http://localhost:8888",
+            "X-Title": "SuperPro Manual Assistant"
+        }
+    )
 
-async def process_with_llm(query: str, context: str, openrouter_api_key: str) -> AsyncGenerator[str, None]:
-    headers = {
-        "Authorization": f"Bearer {openrouter_api_key}",
-        "Content-Type": "application/json",
-        "HTTP-Referer": "http://localhost:8888",
-        "X-Title": "SuperPro Manual Assistant"
-    }
+def process_with_llm(query: str, context: str, requesty_api_key: str):
+    client = init_requesty()
     
     messages = [
         {"role": "system", "content": custom_prompt.format(query=query, context=context)},
         {"role": "user", "content": query}
     ]
-    
-    provider_config = {
-        "order": ["Lepton", "Together", "Avian"],
-        "allow_fallbacks": True
-    }
 
-    payload = {
-        "model": "meta-llama/llama-3.3-70b-instruct",
-        "messages": messages,
-        "temperature": 0.7,
-        "stream": True,
-        "provider": provider_config
-    }
-
-    async def stream_response():
+    try:
+        # Create a completion with streaming
+        response = client.chat.completions.create(
+            model="google/gemini-2.0-flash-001",
+            messages=messages,
+            temperature=0.7,
+            stream=True
+        )
+        
+        # Process the stream
+        for chunk in response:
+            if chunk.choices[0].delta.content is not None:
+                yield chunk.choices[0].delta.content
+    except Exception as e:
+        print(f"Streaming error: {str(e)}")
         try:
-            async with aiohttp.ClientSession() as session:
-                async with session.post(
-                    "https://openrouter.ai/api/v1/chat/completions",
-                    headers=headers,
-                    json=payload
-                ) as response:
-                    async for line in response.content:
-                        if line:
-                            content = parse_sse_chunk(line)
-                            if content:
-                                yield content
-        except Exception as e:
-            print(f"Streaming error: {str(e)}")
             # Fallback to non-streaming
-            response = requests.post(
-                "https://openrouter.ai/api/v1/chat/completions",
-                headers=headers,
-                json={**payload, "stream": False}
+            response = client.chat.completions.create(
+                model="google/gemini-2.0-flash-001",
+                messages=messages,
+                temperature=0.7,
+                stream=False
             )
-            result = response.json()
-            yield result["choices"][0]["message"]["content"]
+            yield response.choices[0].message.content
+        except Exception as e:
+            print(f"Non-streaming fallback error: {str(e)}")
+            yield f"Error: {str(e)}"
 
-    async for chunk in stream_response():
-        yield chunk
-
-async def get_superpro_help(query: str, client: R2RClient, openrouter_api_key: str) -> AsyncGenerator[str, None]:
+def get_superpro_help(query: str, client: R2RClient, requesty_api_key: str):
     """Function to query the SuperPro Designer knowledge base"""
     try:
         # Get top 30 chunks
@@ -138,8 +112,7 @@ async def get_superpro_help(query: str, client: R2RClient, openrouter_api_key: s
         context = "\n\n".join([chunk["text"] for chunk in chunks["results"]["chunk_search_results"]])
         
         # Process with LLM
-        async for chunk in process_with_llm(query, context, openrouter_api_key):
-            yield chunk
+        yield from process_with_llm(query, context, requesty_api_key)
     except Exception as e:
         yield f"Error: {str(e)}"
 
@@ -147,7 +120,7 @@ async def get_superpro_help(query: str, client: R2RClient, openrouter_api_key: s
 # Initialize client
 client = R2RClient("https://api.cloud.sciphi.ai")
 os.environ["R2R_API_KEY"] = st.secrets["R2R_API_KEY"]
-openrouter_api_key = st.secrets["OPENROUTER_API_KEY"]
+requesty_api_key = st.secrets["REQUESTY_API_KEY"]
 
 # Query input
 user_query = st.text_input("Enter your SuperPro Designer question:", 
@@ -155,16 +128,12 @@ user_query = st.text_input("Enter your SuperPro Designer question:",
 
 if user_query:
     response_container = st.empty()
-    import asyncio
     
-    async def process_stream():
-        accumulated_text = ""
-        async for chunk in get_superpro_help(user_query, client, openrouter_api_key):
-            accumulated_text += chunk
-            response_container.markdown("### Response\n" + accumulated_text)
-    
-    with st.spinner("Generating response..."):
-        asyncio.run(process_stream())
+    # Process the response
+    accumulated_text = ""
+    for chunk in get_superpro_help(user_query, client, requesty_api_key):
+        accumulated_text += chunk
+        response_container.markdown("### Response\n" + accumulated_text)
     
     # Add a divider
     st.markdown("---")
