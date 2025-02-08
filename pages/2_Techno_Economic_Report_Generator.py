@@ -376,7 +376,7 @@ Generate a concise and relevant title for this techno-economic analysis.
 - Resource allocations"""
 
                 technical_response = client.chat.completions.create(
-                    model="google/gemini-flash-1.5-8b",
+                    model="google/gemini-2.0-flash-001",
                     messages=[{"role": "user", "content": technical_prompt}]
                 )
                 technical_sections = technical_response.choices[0].message.content
