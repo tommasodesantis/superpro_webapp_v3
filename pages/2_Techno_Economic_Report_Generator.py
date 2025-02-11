@@ -13,7 +13,7 @@ from docx.shared import Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 # Page config
-st.set_page_config(page_title="Techno-economic Report Generator", page_icon="📊")
+st.set_page_config(page_title="Techno-economic Report Generator", page_icon="💸")
 
 # Title and description
 st.title("Techno-economic Report Generator")

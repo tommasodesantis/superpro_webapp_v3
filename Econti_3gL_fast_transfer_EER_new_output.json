@@ -1,0 +1,5517 @@
+{
+  "Table p. 1": {
+    "sheet_name": "Table p. 1",
+    "max_row": 215,
+    "max_column": 6,
+    "cells": [
+      {
+        "row": 1,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Total Capital Investment"
+      },
+      {
+        "row": 1,
+        "column": 2,
+        "column_letter": "B",
+        "value": "41.380.000"
+      },
+      {
+        "row": 1,
+        "column": 3,
+        "column_letter": "C",
+        "value": " €"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Capital Investment Charged to This Project"
+      },
+      {
+        "row": 2,
+        "column": 2,
+        "column_letter": "B",
+        "value": "41.380.000"
+      },
+      {
+        "row": 2,
+        "column": 3,
+        "column_letter": "C",
+        "value": " €"
+      },
+      {
+        "row": 3,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Operating Cost"
+      },
+      {
+        "row": 3,
+        "column": 2,
+        "column_letter": "B",
+        "value": "12.104.000"
+      },
+      {
+        "row": 3,
+        "column": 3,
+        "column_letter": "C",
+        "value": " €/yr"
+      },
+      {
+        "row": 4,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Revenues"
+      },
+      {
+        "row": 4,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0"
+      },
+      {
+        "row": 4,
+        "column": 3,
+        "column_letter": "C",
+        "value": " €/yr"
+      },
+      {
+        "row": 5,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Cost Basis Batch Rate"
+      },
+      {
+        "row": 5,
+        "column": 2,
+        "column_letter": "B",
+        "value": "120,00"
+      },
+      {
+        "row": 5,
+        "column": 3,
+        "column_letter": "C",
+        "value": " kg UPRF"
+      },
+      {
+        "row": 6,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Cost Basis Annual Rate"
+      },
+      {
+        "row": 6,
+        "column": 2,
+        "column_letter": "B",
+        "value": "1.200"
+      },
+      {
+        "row": 6,
+        "column": 3,
+        "column_letter": "C",
+        "value": " kg UPRF/yr"
+      },
+      {
+        "row": 7,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Unit Production Cost"
+      },
+      {
+        "row": 7,
+        "column": 2,
+        "column_letter": "B",
+        "value": "10.086,52"
+      },
+      {
+        "row": 7,
+        "column": 3,
+        "column_letter": "C",
+        "value": " €/kg UPRF"
+      },
+      {
+        "row": 8,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Net Unit Production Cost"
+      },
+      {
+        "row": 8,
+        "column": 2,
+        "column_letter": "B",
+        "value": "10.086,52"
+      },
+      {
+        "row": 8,
+        "column": 3,
+        "column_letter": "C",
+        "value": " €/kg UPRF"
+      },
+      {
+        "row": 9,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Unit Production Revenue"
+      },
+      {
+        "row": 9,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 9,
+        "column": 3,
+        "column_letter": "C",
+        "value": " €/kg UPRF"
+      },
+      {
+        "row": 10,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Gross Margin"
+      },
+      {
+        "row": 10,
+        "column": 2,
+        "column_letter": "B",
+        "value": "- 1,00"
+      },
+      {
+        "row": 10,
+        "column": 3,
+        "column_letter": "C",
+        "value": " %"
+      },
+      {
+        "row": 11,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Return On Investment"
+      },
+      {
+        "row": 11,
+        "column": 2,
+        "column_letter": "B",
+        "value": "- 20,29"
+      },
+      {
+        "row": 11,
+        "column": 3,
+        "column_letter": "C",
+        "value": " %"
+      },
+      {
+        "row": 12,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Payback Time"
+      },
+      {
+        "row": 13,
+        "column": 1,
+        "column_letter": "A",
+        "value": "IRR (After Taxes)"
+      },
+      {
+        "row": 14,
+        "column": 1,
+        "column_letter": "A",
+        "value": "NPV (at 7,0% Interest)"
+      },
+      {
+        "row": 14,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0"
+      },
+      {
+        "row": 14,
+        "column": 3,
+        "column_letter": "C",
+        "value": " €"
+      },
+      {
+        "row": 15,
+        "column": 1,
+        "column_letter": "A",
+        "value": "UPRF = Flow of Component 'POI' in Stream 'Product to polishing'"
+      },
+      {
+        "row": 16,
+        "column": 1,
+        "column_letter": "A",
+        "value": "2. EQUIPMENT SPECIFICATION AND FOB COST (2024 prices)"
+      },
+      {
+        "row": 17,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Main Equipment"
+      },
+      {
+        "row": 18,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Quantity/ Standby/ Staggered"
+      },
+      {
+        "row": 18,
+        "column": 2,
+        "column_letter": "B",
+        "value": "Name"
+      },
+      {
+        "row": 18,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Description"
+      },
+      {
+        "row": 18,
+        "column": 4,
+        "column_letter": "D",
+        "value": "Unit Cost (€)"
+      },
+      {
+        "row": 18,
+        "column": 5,
+        "column_letter": "E",
+        "value": "Cost (€)"
+      },
+      {
+        "row": 19,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 19,
+        "column": 2,
+        "column_letter": "B",
+        "value": "FR-102"
+      },
+      {
+        "row": 19,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Fermentor"
+      },
+      {
+        "row": 19,
+        "column": 4,
+        "column_letter": "D",
+        "value": "480.000"
+      },
+      {
+        "row": 19,
+        "column": 5,
+        "column_letter": "E",
+        "value": "480.000"
+      },
+      {
+        "row": 20,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 875,95 L"
+      },
+      {
+        "row": 21,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 21,
+        "column": 2,
+        "column_letter": "B",
+        "value": "FR-101"
+      },
+      {
+        "row": 21,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Fermentor"
+      },
+      {
+        "row": 21,
+        "column": 4,
+        "column_letter": "D",
+        "value": "390.000"
+      },
+      {
+        "row": 21,
+        "column": 5,
+        "column_letter": "E",
+        "value": "390.000"
+      },
+      {
+        "row": 22,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 618,74 L"
+      },
+      {
+        "row": 23,
+        "column": 1,
+        "column_letter": "A",
+        "value": "5 / 0 / 0"
+      },
+      {
+        "row": 23,
+        "column": 2,
+        "column_letter": "B",
+        "value": "C-102"
+      },
+      {
+        "row": 23,
+        "column": 3,
+        "column_letter": "C",
+        "value": "PBA Column"
+      },
+      {
+        "row": 23,
+        "column": 4,
+        "column_letter": "D",
+        "value": "240.000"
+      },
+      {
+        "row": 23,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.200.000"
+      },
+      {
+        "row": 24,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Column Volume = 1,86 L"
+      },
+      {
+        "row": 25,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 25,
+        "column": 2,
+        "column_letter": "B",
+        "value": "ST-101"
+      },
+      {
+        "row": 25,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Heat Sterilizer"
+      },
+      {
+        "row": 25,
+        "column": 4,
+        "column_letter": "D",
+        "value": "233.000"
+      },
+      {
+        "row": 25,
+        "column": 5,
+        "column_letter": "E",
+        "value": "233.000"
+      },
+      {
+        "row": 26,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Rated Throughput = 377,49 L/h"
+      },
+      {
+        "row": 27,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 1 / 0"
+      },
+      {
+        "row": 27,
+        "column": 2,
+        "column_letter": "B",
+        "value": "V-105"
+      },
+      {
+        "row": 27,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Flat Bottom Tank"
+      },
+      {
+        "row": 27,
+        "column": 4,
+        "column_letter": "D",
+        "value": "184.000"
+      },
+      {
+        "row": 27,
+        "column": 5,
+        "column_letter": "E",
+        "value": "368.000"
+      },
+      {
+        "row": 28,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 26,73 m3"
+      },
+      {
+        "row": 29,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 29,
+        "column": 2,
+        "column_letter": "B",
+        "value": "DS-101"
+      },
+      {
+        "row": 29,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Disk-Stack Centrifuge"
+      },
+      {
+        "row": 29,
+        "column": 4,
+        "column_letter": "D",
+        "value": "144.000"
+      },
+      {
+        "row": 29,
+        "column": 5,
+        "column_letter": "E",
+        "value": "144.000"
+      },
+      {
+        "row": 30,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Throughput = 74,78 L/h"
+      },
+      {
+        "row": 31,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 31,
+        "column": 2,
+        "column_letter": "B",
+        "value": "DCS-101"
+      },
+      {
+        "row": 31,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Blending Tank"
+      },
+      {
+        "row": 31,
+        "column": 4,
+        "column_letter": "D",
+        "value": "104.000"
+      },
+      {
+        "row": 31,
+        "column": 5,
+        "column_letter": "E",
+        "value": "104.000"
+      },
+      {
+        "row": 32,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 2,46 m3"
+      },
+      {
+        "row": 33,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 33,
+        "column": 2,
+        "column_letter": "B",
+        "value": "G-101"
+      },
+      {
+        "row": 33,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Centrifugal Compressor"
+      },
+      {
+        "row": 33,
+        "column": 4,
+        "column_letter": "D",
+        "value": "102.000"
+      },
+      {
+        "row": 33,
+        "column": 5,
+        "column_letter": "E",
+        "value": "102.000"
+      },
+      {
+        "row": 34,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Compressor Power = 57,32 kW"
+      },
+      {
+        "row": 35,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 1 / 0"
+      },
+      {
+        "row": 35,
+        "column": 2,
+        "column_letter": "B",
+        "value": "V-102"
+      },
+      {
+        "row": 35,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Blending Tank"
+      },
+      {
+        "row": 35,
+        "column": 4,
+        "column_letter": "D",
+        "value": "93.000"
+      },
+      {
+        "row": 35,
+        "column": 5,
+        "column_letter": "E",
+        "value": "186.000"
+      },
+      {
+        "row": 36,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 1,68 m3"
+      },
+      {
+        "row": 37,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 1 / 0"
+      },
+      {
+        "row": 37,
+        "column": 2,
+        "column_letter": "B",
+        "value": "SL-101"
+      },
+      {
+        "row": 37,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Silo"
+      },
+      {
+        "row": 37,
+        "column": 4,
+        "column_letter": "D",
+        "value": "92.000"
+      },
+      {
+        "row": 37,
+        "column": 5,
+        "column_letter": "E",
+        "value": "184.000"
+      },
+      {
+        "row": 38,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 5371,05 L"
+      },
+      {
+        "row": 39,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 39,
+        "column": 2,
+        "column_letter": "B",
+        "value": "DCS-103"
+      },
+      {
+        "row": 39,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Blending Tank"
+      },
+      {
+        "row": 39,
+        "column": 4,
+        "column_letter": "D",
+        "value": "85.000"
+      },
+      {
+        "row": 39,
+        "column": 5,
+        "column_letter": "E",
+        "value": "85.000"
+      },
+      {
+        "row": 40,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 1,23 m3"
+      },
+      {
+        "row": 41,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 41,
+        "column": 2,
+        "column_letter": "B",
+        "value": "DCS-102"
+      },
+      {
+        "row": 41,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Blending Tank"
+      },
+      {
+        "row": 41,
+        "column": 4,
+        "column_letter": "D",
+        "value": "85.000"
+      },
+      {
+        "row": 41,
+        "column": 5,
+        "column_letter": "E",
+        "value": "85.000"
+      },
+      {
+        "row": 42,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 1,23 m3"
+      },
+      {
+        "row": 43,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 43,
+        "column": 2,
+        "column_letter": "B",
+        "value": "DCS-104"
+      },
+      {
+        "row": 43,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Blending Tank"
+      },
+      {
+        "row": 43,
+        "column": 4,
+        "column_letter": "D",
+        "value": "80.000"
+      },
+      {
+        "row": 43,
+        "column": 5,
+        "column_letter": "E",
+        "value": "80.000"
+      },
+      {
+        "row": 44,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 0,98 m3"
+      },
+      {
+        "row": 45,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 45,
+        "column": 2,
+        "column_letter": "B",
+        "value": "V-101"
+      },
+      {
+        "row": 45,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Receiver Tank"
+      },
+      {
+        "row": 45,
+        "column": 4,
+        "column_letter": "D",
+        "value": "76.000"
+      },
+      {
+        "row": 45,
+        "column": 5,
+        "column_letter": "E",
+        "value": "76.000"
+      },
+      {
+        "row": 46,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 1827,39 L"
+      },
+      {
+        "row": 47,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 47,
+        "column": 2,
+        "column_letter": "B",
+        "value": "DE-103"
+      },
+      {
+        "row": 47,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Dead-End Filter"
+      },
+      {
+        "row": 47,
+        "column": 4,
+        "column_letter": "D",
+        "value": "53.000"
+      },
+      {
+        "row": 47,
+        "column": 5,
+        "column_letter": "E",
+        "value": "53.000"
+      },
+      {
+        "row": 48,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Filter Area = 10,00 m2"
+      },
+      {
+        "row": 49,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 49,
+        "column": 2,
+        "column_letter": "B",
+        "value": "V-103"
+      },
+      {
+        "row": 49,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Receiver Tank"
+      },
+      {
+        "row": 49,
+        "column": 4,
+        "column_letter": "D",
+        "value": "49.000"
+      },
+      {
+        "row": 49,
+        "column": 5,
+        "column_letter": "E",
+        "value": "49.000"
+      },
+      {
+        "row": 50,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Vessel Volume = 91,94 L"
+      },
+      {
+        "row": 51,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 51,
+        "column": 2,
+        "column_letter": "B",
+        "value": "AF-101"
+      },
+      {
+        "row": 51,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Air Filter"
+      },
+      {
+        "row": 51,
+        "column": 4,
+        "column_letter": "D",
+        "value": "11.000"
+      },
+      {
+        "row": 51,
+        "column": 5,
+        "column_letter": "E",
+        "value": "11.000"
+      },
+      {
+        "row": 52,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Rated Throughput = 1117186,53 L/h"
+      },
+      {
+        "row": 53,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 53,
+        "column": 2,
+        "column_letter": "B",
+        "value": "DP-101"
+      },
+      {
+        "row": 53,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Diaphragm Pump"
+      },
+      {
+        "row": 53,
+        "column": 4,
+        "column_letter": "D",
+        "value": "4.000"
+      },
+      {
+        "row": 53,
+        "column": 5,
+        "column_letter": "E",
+        "value": "4.000"
+      },
+      {
+        "row": 54,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Pump Power = 0,00 kW"
+      },
+      {
+        "row": 55,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "row": 55,
+        "column": 2,
+        "column_letter": "B",
+        "value": "SFR-101"
+      },
+      {
+        "row": 55,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Shake Flask Rack"
+      },
+      {
+        "row": 55,
+        "column": 4,
+        "column_letter": "D",
+        "value": "1.000"
+      },
+      {
+        "row": 55,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.000"
+      },
+      {
+        "row": 56,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Container Volume = 36,00 L"
+      },
+      {
+        "row": 57,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Unlisted Equipment"
+      },
+      {
+        "row": 57,
+        "column": 5,
+        "column_letter": "E",
+        "value": "959.000"
+      },
+      {
+        "row": 58,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Auxiliary Equipment"
+      },
+      {
+        "row": 59,
+        "column": 1,
+        "column_letter": "A",
+        "value": "1"
+      },
+      {
+        "row": 59,
+        "column": 2,
+        "column_letter": "B",
+        "value": "SIPS-101"
+      },
+      {
+        "row": 59,
+        "column": 3,
+        "column_letter": "C",
+        "value": "SIP Panel"
+      },
+      {
+        "row": 59,
+        "column": 4,
+        "column_letter": "D",
+        "value": "50.000"
+      },
+      {
+        "row": 59,
+        "column": 5,
+        "column_letter": "E",
+        "value": "50.000"
+      },
+      {
+        "row": 60,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Mass Flow = 1881,27 kg/h"
+      },
+      {
+        "row": 61,
+        "column": 4,
+        "column_letter": "D",
+        "value": "TOTAL"
+      },
+      {
+        "row": 61,
+        "column": 5,
+        "column_letter": "E",
+        "value": "4.844.000"
+      },
+      {
+        "row": 62,
+        "column": 1,
+        "column_letter": "A",
+        "value": "3. DIRECT FIXED CAPITAL COST (DFC) SUMMARY (2024 prices in €)"
+      },
+      {
+        "row": 63,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Section Name"
+      },
+      {
+        "row": 63,
+        "column": 2,
+        "column_letter": "B",
+        "value": "DFC (€)"
+      },
+      {
+        "row": 64,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Main Section"
+      },
+      {
+        "row": 64,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0"
+      },
+      {
+        "row": 65,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Media & buffers preparation"
+      },
+      {
+        "row": 65,
+        "column": 2,
+        "column_letter": "B",
+        "value": "13.465.000"
+      },
+      {
+        "row": 66,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Fermentation"
+      },
+      {
+        "row": 66,
+        "column": 2,
+        "column_letter": "B",
+        "value": "9.999.000"
+      },
+      {
+        "row": 67,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Downstream"
+      },
+      {
+        "row": 67,
+        "column": 2,
+        "column_letter": "B",
+        "value": "15.508.000"
+      },
+      {
+        "row": 68,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Plant DFC"
+      },
+      {
+        "row": 68,
+        "column": 2,
+        "column_letter": "B",
+        "value": "39.022.000"
+      },
+      {
+        "row": 69,
+        "column": 1,
+        "column_letter": "A",
+        "value": "4. FACILITY-DEPENDENT COST - PROCESS SUMMARY"
+      },
+      {
+        "row": 70,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Cost Item"
+      },
+      {
+        "row": 70,
+        "column": 2,
+        "column_letter": "B",
+        "value": "Annual Cost (€)"
+      },
+      {
+        "row": 70,
+        "column": 3,
+        "column_letter": "C",
+        "value": "%"
+      },
+      {
+        "row": 71,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Depreciation"
+      },
+      {
+        "row": 71,
+        "column": 2,
+        "column_letter": "B",
+        "value": "3.702.000"
+      },
+      {
+        "row": 71,
+        "column": 3,
+        "column_letter": "C",
+        "value": "51,63"
+      },
+      {
+        "row": 72,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Maintenance"
+      },
+      {
+        "row": 72,
+        "column": 2,
+        "column_letter": "B",
+        "value": "347.000"
+      },
+      {
+        "row": 72,
+        "column": 3,
+        "column_letter": "C",
+        "value": "4,83"
+      },
+      {
+        "row": 73,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Insurance"
+      },
+      {
+        "row": 73,
+        "column": 2,
+        "column_letter": "B",
+        "value": "390.000"
+      },
+      {
+        "row": 73,
+        "column": 3,
+        "column_letter": "C",
+        "value": "5,43"
+      },
+      {
+        "row": 74,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Local Taxes"
+      },
+      {
+        "row": 74,
+        "column": 2,
+        "column_letter": "B",
+        "value": "779.000"
+      },
+      {
+        "row": 74,
+        "column": 3,
+        "column_letter": "C",
+        "value": "10,87"
+      },
+      {
+        "row": 75,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Factory Expense"
+      },
+      {
+        "row": 75,
+        "column": 2,
+        "column_letter": "B",
+        "value": "1.949.000"
+      },
+      {
+        "row": 75,
+        "column": 3,
+        "column_letter": "C",
+        "value": "27,17"
+      },
+      {
+        "row": 76,
+        "column": 1,
+        "column_letter": "A",
+        "value": "TOTAL"
+      },
+      {
+        "row": 76,
+        "column": 2,
+        "column_letter": "B",
+        "value": "7.172.000"
+      },
+      {
+        "row": 76,
+        "column": 3,
+        "column_letter": "C",
+        "value": "100,00"
+      },
+      {
+        "row": 77,
+        "column": 1,
+        "column_letter": "A",
+        "value": "5. MATERIALS COST - PROCESS SUMMARY"
+      },
+      {
+        "row": 78,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Bulk Material"
+      },
+      {
+        "row": 78,
+        "column": 2,
+        "column_letter": "B",
+        "value": "Unit Cost (€)"
+      },
+      {
+        "row": 78,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Annual Amount"
+      },
+      {
+        "row": 78,
+        "column": 5,
+        "column_letter": "E",
+        "value": "Annual Cost (€)"
+      },
+      {
+        "row": 78,
+        "column": 6,
+        "column_letter": "F",
+        "value": "%"
+      },
+      {
+        "row": 79,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Air"
+      },
+      {
+        "row": 79,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 79,
+        "column": 3,
+        "column_letter": "C",
+        "value": "337.585"
+      },
+      {
+        "row": 79,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 79,
+        "column": 5,
+        "column_letter": "E",
+        "value": "0"
+      },
+      {
+        "row": 79,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 80,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Amm. Sulfate"
+      },
+      {
+        "row": 80,
+        "column": 2,
+        "column_letter": "B",
+        "value": "23,34"
+      },
+      {
+        "row": 80,
+        "column": 3,
+        "column_letter": "C",
+        "value": "648"
+      },
+      {
+        "row": 80,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 80,
+        "column": 5,
+        "column_letter": "E",
+        "value": "15.124"
+      },
+      {
+        "row": 80,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,62"
+      },
+      {
+        "row": 81,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Arabinose"
+      },
+      {
+        "row": 81,
+        "column": 2,
+        "column_letter": "B",
+        "value": "61,38"
+      },
+      {
+        "row": 81,
+        "column": 3,
+        "column_letter": "C",
+        "value": "3.087"
+      },
+      {
+        "row": 81,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 81,
+        "column": 5,
+        "column_letter": "E",
+        "value": "189.482"
+      },
+      {
+        "row": 81,
+        "column": 6,
+        "column_letter": "F",
+        "value": "7,74"
+      },
+      {
+        "row": 82,
+        "column": 1,
+        "column_letter": "A",
+        "value": "CaCl2(aq)"
+      },
+      {
+        "row": 82,
+        "column": 2,
+        "column_letter": "B",
+        "value": "34,48"
+      },
+      {
+        "row": 82,
+        "column": 3,
+        "column_letter": "C",
+        "value": "206"
+      },
+      {
+        "row": 82,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 82,
+        "column": 5,
+        "column_letter": "E",
+        "value": "7.089"
+      },
+      {
+        "row": 82,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,29"
+      },
+      {
+        "row": 83,
+        "column": 1,
+        "column_letter": "A",
+        "value": "CIP Chrom."
+      },
+      {
+        "row": 83,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,01"
+      },
+      {
+        "row": 83,
+        "column": 3,
+        "column_letter": "C",
+        "value": "223.113"
+      },
+      {
+        "row": 83,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 83,
+        "column": 5,
+        "column_letter": "E",
+        "value": "2.078"
+      },
+      {
+        "row": 83,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,08"
+      },
+      {
+        "row": 84,
+        "column": 1,
+        "column_letter": "A",
+        "value": "CIP-Acid"
+      },
+      {
+        "row": 84,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,11"
+      },
+      {
+        "row": 84,
+        "column": 3,
+        "column_letter": "C",
+        "value": "278.523"
+      },
+      {
+        "row": 84,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 84,
+        "column": 5,
+        "column_letter": "E",
+        "value": "30.254"
+      },
+      {
+        "row": 84,
+        "column": 6,
+        "column_letter": "F",
+        "value": "1,24"
+      },
+      {
+        "row": 85,
+        "column": 1,
+        "column_letter": "A",
+        "value": "CIP-Caustic"
+      },
+      {
+        "row": 85,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,10"
+      },
+      {
+        "row": 85,
+        "column": 3,
+        "column_letter": "C",
+        "value": "534.725"
+      },
+      {
+        "row": 85,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 85,
+        "column": 5,
+        "column_letter": "E",
+        "value": "52.166"
+      },
+      {
+        "row": 85,
+        "column": 6,
+        "column_letter": "F",
+        "value": "2,13"
+      },
+      {
+        "row": 86,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Elut. Buffer"
+      },
+      {
+        "row": 86,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,46"
+      },
+      {
+        "row": 86,
+        "column": 3,
+        "column_letter": "C",
+        "value": "277.022"
+      },
+      {
+        "row": 86,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 86,
+        "column": 5,
+        "column_letter": "E",
+        "value": "127.023"
+      },
+      {
+        "row": 86,
+        "column": 6,
+        "column_letter": "F",
+        "value": "5,19"
+      },
+      {
+        "row": 87,
+        "column": 1,
+        "column_letter": "A",
+        "value": "EQ/Wash Buffer"
+      },
+      {
+        "row": 87,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,35"
+      },
+      {
+        "row": 87,
+        "column": 3,
+        "column_letter": "C",
+        "value": "825.672"
+      },
+      {
+        "row": 87,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 87,
+        "column": 5,
+        "column_letter": "E",
+        "value": "292.804"
+      },
+      {
+        "row": 87,
+        "column": 6,
+        "column_letter": "F",
+        "value": "11,96"
+      },
+      {
+        "row": 88,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Glucose"
+      },
+      {
+        "row": 88,
+        "column": 2,
+        "column_letter": "B",
+        "value": "14,99"
+      },
+      {
+        "row": 88,
+        "column": 3,
+        "column_letter": "C",
+        "value": "31.151"
+      },
+      {
+        "row": 88,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 88,
+        "column": 5,
+        "column_letter": "E",
+        "value": "466.947"
+      },
+      {
+        "row": 88,
+        "column": 6,
+        "column_letter": "F",
+        "value": "19,07"
+      },
+      {
+        "row": 89,
+        "column": 1,
+        "column_letter": "A",
+        "value": "IPTG"
+      },
+      {
+        "row": 89,
+        "column": 2,
+        "column_letter": "B",
+        "value": "7.291,20"
+      },
+      {
+        "row": 89,
+        "column": 3,
+        "column_letter": "C",
+        "value": "69"
+      },
+      {
+        "row": 89,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 89,
+        "column": 5,
+        "column_letter": "E",
+        "value": "501.996"
+      },
+      {
+        "row": 89,
+        "column": 6,
+        "column_letter": "F",
+        "value": "20,50"
+      },
+      {
+        "row": 90,
+        "column": 1,
+        "column_letter": "A",
+        "value": "MgSO4(aq)"
+      },
+      {
+        "row": 90,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,69"
+      },
+      {
+        "row": 90,
+        "column": 3,
+        "column_letter": "C",
+        "value": "1.028"
+      },
+      {
+        "row": 90,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 90,
+        "column": 5,
+        "column_letter": "E",
+        "value": "4.818"
+      },
+      {
+        "row": 90,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,20"
+      },
+      {
+        "row": 91,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Na2HPO4"
+      },
+      {
+        "row": 91,
+        "column": 2,
+        "column_letter": "B",
+        "value": "38,32"
+      },
+      {
+        "row": 91,
+        "column": 3,
+        "column_letter": "C",
+        "value": "925"
+      },
+      {
+        "row": 91,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 91,
+        "column": 5,
+        "column_letter": "E",
+        "value": "35.448"
+      },
+      {
+        "row": 91,
+        "column": 6,
+        "column_letter": "F",
+        "value": "1,45"
+      },
+      {
+        "row": 92,
+        "column": 1,
+        "column_letter": "A",
+        "value": "NaH2PO4"
+      },
+      {
+        "row": 92,
+        "column": 2,
+        "column_letter": "B",
+        "value": "33,52"
+      },
+      {
+        "row": 92,
+        "column": 3,
+        "column_letter": "C",
+        "value": "1.411"
+      },
+      {
+        "row": 92,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 92,
+        "column": 5,
+        "column_letter": "E",
+        "value": "47.296"
+      },
+      {
+        "row": 92,
+        "column": 6,
+        "column_letter": "F",
+        "value": "1,93"
+      },
+      {
+        "row": 93,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Strip Buffer"
+      },
+      {
+        "row": 93,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,80"
+      },
+      {
+        "row": 93,
+        "column": 3,
+        "column_letter": "C",
+        "value": "226.434"
+      },
+      {
+        "row": 93,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 93,
+        "column": 5,
+        "column_letter": "E",
+        "value": "180.416"
+      },
+      {
+        "row": 93,
+        "column": 6,
+        "column_letter": "F",
+        "value": "7,37"
+      },
+      {
+        "row": 94,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Trisodium citra"
+      },
+      {
+        "row": 94,
+        "column": 2,
+        "column_letter": "B",
+        "value": "6,92"
+      },
+      {
+        "row": 94,
+        "column": 3,
+        "column_letter": "C",
+        "value": "2.570"
+      },
+      {
+        "row": 94,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 94,
+        "column": 5,
+        "column_letter": "E",
+        "value": "17.782"
+      },
+      {
+        "row": 94,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,73"
+      },
+      {
+        "row": 95,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Water"
+      },
+      {
+        "row": 95,
+        "column": 2,
+        "column_letter": "B",
+        "value": "2,90"
+      },
+      {
+        "row": 95,
+        "column": 3,
+        "column_letter": "C",
+        "value": "622"
+      },
+      {
+        "row": 95,
+        "column": 4,
+        "column_letter": "D",
+        "value": "m3(STP)"
+      },
+      {
+        "row": 95,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.804"
+      },
+      {
+        "row": 95,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,07"
+      },
+      {
+        "row": 96,
+        "column": 1,
+        "column_letter": "A",
+        "value": "WFI"
+      },
+      {
+        "row": 96,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,09"
+      },
+      {
+        "row": 96,
+        "column": 3,
+        "column_letter": "C",
+        "value": "5.119.977"
+      },
+      {
+        "row": 96,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 96,
+        "column": 5,
+        "column_letter": "E",
+        "value": "476.158"
+      },
+      {
+        "row": 96,
+        "column": 6,
+        "column_letter": "F",
+        "value": "19,45"
+      },
+      {
+        "row": 97,
+        "column": 1,
+        "column_letter": "A",
+        "value": "TOTAL"
+      },
+      {
+        "row": 97,
+        "column": 5,
+        "column_letter": "E",
+        "value": "2.448.685"
+      },
+      {
+        "row": 97,
+        "column": 6,
+        "column_letter": "F",
+        "value": "100,00"
+      },
+      {
+        "row": 98,
+        "column": 1,
+        "column_letter": "A",
+        "value": " NOTE: Bulk material consumption amount includes material used as: - Raw Material - Cleaning Agent - Heat Transfer Agent (if utilities are included in the operating cost)"
+      },
+      {
+        "row": 99,
+        "column": 1,
+        "column_letter": "A",
+        "value": "6. UTILITIES COST (2024 prices) - PROCESS SUMMARY"
+      },
+      {
+        "row": 100,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Utility"
+      },
+      {
+        "row": 100,
+        "column": 2,
+        "column_letter": "B",
+        "value": "Unit Cost (€)"
+      },
+      {
+        "row": 100,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Annual Amount"
+      },
+      {
+        "row": 100,
+        "column": 4,
+        "column_letter": "D",
+        "value": "Ref. Units"
+      },
+      {
+        "row": 100,
+        "column": 5,
+        "column_letter": "E",
+        "value": "Annual Cost (€)"
+      },
+      {
+        "row": 100,
+        "column": 6,
+        "column_letter": "F",
+        "value": "%"
+      },
+      {
+        "row": 101,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Std Power"
+      },
+      {
+        "row": 101,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,21"
+      },
+      {
+        "row": 101,
+        "column": 3,
+        "column_letter": "C",
+        "value": "552.980"
+      },
+      {
+        "row": 101,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kW-h"
+      },
+      {
+        "row": 101,
+        "column": 5,
+        "column_letter": "E",
+        "value": "115.711"
+      },
+      {
+        "row": 101,
+        "column": 6,
+        "column_letter": "F",
+        "value": "92,83"
+      },
+      {
+        "row": 102,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Steam"
+      },
+      {
+        "row": 102,
+        "column": 2,
+        "column_letter": "B",
+        "value": "11,16"
+      },
+      {
+        "row": 102,
+        "column": 3,
+        "column_letter": "C",
+        "value": "178"
+      },
+      {
+        "row": 102,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 102,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.991"
+      },
+      {
+        "row": 102,
+        "column": 6,
+        "column_letter": "F",
+        "value": "1,60"
+      },
+      {
+        "row": 103,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Cooling Water"
+      },
+      {
+        "row": 103,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,05"
+      },
+      {
+        "row": 103,
+        "column": 3,
+        "column_letter": "C",
+        "value": "3.993"
+      },
+      {
+        "row": 103,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 103,
+        "column": 5,
+        "column_letter": "E",
+        "value": "186"
+      },
+      {
+        "row": 103,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,15"
+      },
+      {
+        "row": 104,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Chilled Water"
+      },
+      {
+        "row": 104,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,37"
+      },
+      {
+        "row": 104,
+        "column": 3,
+        "column_letter": "C",
+        "value": "15.786"
+      },
+      {
+        "row": 104,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 104,
+        "column": 5,
+        "column_letter": "E",
+        "value": "5.872"
+      },
+      {
+        "row": 104,
+        "column": 6,
+        "column_letter": "F",
+        "value": "4,71"
+      },
+      {
+        "row": 105,
+        "column": 1,
+        "column_letter": "A",
+        "value": "CaCl2 Brine"
+      },
+      {
+        "row": 105,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,23"
+      },
+      {
+        "row": 105,
+        "column": 3,
+        "column_letter": "C",
+        "value": "3.805"
+      },
+      {
+        "row": 105,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 105,
+        "column": 5,
+        "column_letter": "E",
+        "value": "885"
+      },
+      {
+        "row": 105,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,71"
+      },
+      {
+        "row": 106,
+        "column": 1,
+        "column_letter": "A",
+        "value": "TOTAL"
+      },
+      {
+        "row": 106,
+        "column": 5,
+        "column_letter": "E",
+        "value": "124.645"
+      },
+      {
+        "row": 106,
+        "column": 6,
+        "column_letter": "F",
+        "value": "100,00"
+      },
+      {
+        "row": 107,
+        "column": 1,
+        "column_letter": "A",
+        "value": "   "
+      },
+      {
+        "row": 108,
+        "column": 1,
+        "column_letter": "A",
+        "value": "7. LABOR COST - PROCESS SUMMARY"
+      },
+      {
+        "row": 109,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Labor Type"
+      },
+      {
+        "row": 109,
+        "column": 2,
+        "column_letter": "B",
+        "value": "Unit Cost (€/h)"
+      },
+      {
+        "row": 109,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Annual Amount (h)"
+      },
+      {
+        "row": 109,
+        "column": 4,
+        "column_letter": "D",
+        "value": "Annual Cost (€)"
+      },
+      {
+        "row": 109,
+        "column": 5,
+        "column_letter": "E",
+        "value": "%"
+      },
+      {
+        "row": 110,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Operator"
+      },
+      {
+        "row": 110,
+        "column": 2,
+        "column_letter": "B",
+        "value": "44,92"
+      },
+      {
+        "row": 110,
+        "column": 3,
+        "column_letter": "C",
+        "value": "19.068"
+      },
+      {
+        "row": 110,
+        "column": 4,
+        "column_letter": "D",
+        "value": "856.522"
+      },
+      {
+        "row": 110,
+        "column": 5,
+        "column_letter": "E",
+        "value": "100,00"
+      },
+      {
+        "row": 111,
+        "column": 1,
+        "column_letter": "A",
+        "value": "TOTAL"
+      },
+      {
+        "row": 111,
+        "column": 3,
+        "column_letter": "C",
+        "value": "19.068"
+      },
+      {
+        "row": 111,
+        "column": 4,
+        "column_letter": "D",
+        "value": "856.522"
+      },
+      {
+        "row": 111,
+        "column": 5,
+        "column_letter": "E",
+        "value": "100,00"
+      },
+      {
+        "row": 112,
+        "column": 1,
+        "column_letter": "A",
+        "value": "8. VARIOUS CONSUMABLES COST (2024 prices) - PROCESS SUMMARY"
+      },
+      {
+        "row": 113,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Consumable"
+      },
+      {
+        "row": 113,
+        "column": 2,
+        "column_letter": "B",
+        "value": "Units Cost (€)"
+      },
+      {
+        "row": 113,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Annual Amount"
+      },
+      {
+        "row": 113,
+        "column": 5,
+        "column_letter": "E",
+        "value": "Annual Cost (€)"
+      },
+      {
+        "row": 113,
+        "column": 6,
+        "column_letter": "F",
+        "value": "%"
+      },
+      {
+        "row": 114,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Dft DEF Cartridge"
+      },
+      {
+        "row": 114,
+        "column": 2,
+        "column_letter": "B",
+        "value": "930,00"
+      },
+      {
+        "row": 114,
+        "column": 3,
+        "column_letter": "C",
+        "value": "17"
+      },
+      {
+        "row": 114,
+        "column": 4,
+        "column_letter": "D",
+        "value": "   item"
+      },
+      {
+        "row": 114,
+        "column": 5,
+        "column_letter": "E",
+        "value": "16.154"
+      },
+      {
+        "row": 114,
+        "column": 6,
+        "column_letter": "F",
+        "value": "3,06"
+      },
+      {
+        "row": 115,
+        "column": 1,
+        "column_letter": "A",
+        "value": "2000 mL Shake Flask"
+      },
+      {
+        "row": 115,
+        "column": 2,
+        "column_letter": "B",
+        "value": "1,67"
+      },
+      {
+        "row": 115,
+        "column": 3,
+        "column_letter": "C",
+        "value": "4"
+      },
+      {
+        "row": 115,
+        "column": 4,
+        "column_letter": "D",
+        "value": "   item"
+      },
+      {
+        "row": 115,
+        "column": 5,
+        "column_letter": "E",
+        "value": "6"
+      },
+      {
+        "row": 115,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 116,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Dft PBA Chrom Resin"
+      },
+      {
+        "row": 116,
+        "column": 2,
+        "column_letter": "B",
+        "value": "1.395,00"
+      },
+      {
+        "row": 116,
+        "column": 3,
+        "column_letter": "C",
+        "value": "367"
+      },
+      {
+        "row": 116,
+        "column": 4,
+        "column_letter": "D",
+        "value": "   L"
+      },
+      {
+        "row": 116,
+        "column": 5,
+        "column_letter": "E",
+        "value": "512.082"
+      },
+      {
+        "row": 116,
+        "column": 6,
+        "column_letter": "F",
+        "value": "96,94"
+      },
+      {
+        "row": 117,
+        "column": 1,
+        "column_letter": "A",
+        "value": "TOTAL"
+      },
+      {
+        "row": 117,
+        "column": 4,
+        "column_letter": "D",
+        "value": " "
+      },
+      {
+        "row": 117,
+        "column": 5,
+        "column_letter": "E",
+        "value": "528.241"
+      },
+      {
+        "row": 117,
+        "column": 6,
+        "column_letter": "F",
+        "value": "100,00"
+      },
+      {
+        "row": 118,
+        "column": 1,
+        "column_letter": "A",
+        "value": "9. WASTE TREATMENT/DISPOSAL COST (2024 prices) - PROCESS SUMMARY"
+      },
+      {
+        "row": 119,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Waste Category"
+      },
+      {
+        "row": 119,
+        "column": 2,
+        "column_letter": "B",
+        "value": "Unit Cost (€)"
+      },
+      {
+        "row": 119,
+        "column": 3,
+        "column_letter": "C",
+        "value": "Annual Amount"
+      },
+      {
+        "row": 119,
+        "column": 5,
+        "column_letter": "E",
+        "value": "Annual Cost (€)"
+      },
+      {
+        "row": 119,
+        "column": 6,
+        "column_letter": "F",
+        "value": "%"
+      },
+      {
+        "row": 120,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Solid Waste"
+      },
+      {
+        "row": 120,
+        "column": 5,
+        "column_letter": "E",
+        "value": "0"
+      },
+      {
+        "row": 120,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 121,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Aqueous Liquid"
+      },
+      {
+        "row": 121,
+        "column": 5,
+        "column_letter": "E",
+        "value": "845.729"
+      },
+      {
+        "row": 121,
+        "column": 6,
+        "column_letter": "F",
+        "value": "100,00"
+      },
+      {
+        "row": 122,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  WASTE"
+      },
+      {
+        "row": 122,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,47"
+      },
+      {
+        "row": 122,
+        "column": 3,
+        "column_letter": "C",
+        "value": "1.756.619"
+      },
+      {
+        "row": 122,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 122,
+        "column": 5,
+        "column_letter": "E",
+        "value": "816.828"
+      },
+      {
+        "row": 122,
+        "column": 6,
+        "column_letter": "F",
+        "value": "96,58"
+      },
+      {
+        "row": 123,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-2:SIP-1"
+      },
+      {
+        "row": 123,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 123,
+        "column": 3,
+        "column_letter": "C",
+        "value": "26.624"
+      },
+      {
+        "row": 123,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 123,
+        "column": 5,
+        "column_letter": "E",
+        "value": "25"
+      },
+      {
+        "row": 123,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 124,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-2:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 124,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 124,
+        "column": 3,
+        "column_letter": "C",
+        "value": "133"
+      },
+      {
+        "row": 124,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 124,
+        "column": 5,
+        "column_letter": "E",
+        "value": "618"
+      },
+      {
+        "row": 124,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,07"
+      },
+      {
+        "row": 125,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-2:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 125,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 125,
+        "column": 3,
+        "column_letter": "C",
+        "value": "91"
+      },
+      {
+        "row": 125,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 125,
+        "column": 5,
+        "column_letter": "E",
+        "value": "423"
+      },
+      {
+        "row": 125,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,05"
+      },
+      {
+        "row": 126,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-2:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 126,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 126,
+        "column": 3,
+        "column_letter": "C",
+        "value": "266"
+      },
+      {
+        "row": 126,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 126,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.236"
+      },
+      {
+        "row": 126,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,15"
+      },
+      {
+        "row": 127,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-2:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 127,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 127,
+        "column": 3,
+        "column_letter": "C",
+        "value": "45"
+      },
+      {
+        "row": 127,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 127,
+        "column": 5,
+        "column_letter": "E",
+        "value": "211"
+      },
+      {
+        "row": 127,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,02"
+      },
+      {
+        "row": 128,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-2:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 128,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 128,
+        "column": 3,
+        "column_letter": "C",
+        "value": "354"
+      },
+      {
+        "row": 128,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 128,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.647"
+      },
+      {
+        "row": 128,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,19"
+      },
+      {
+        "row": 129,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-7:SIP-1"
+      },
+      {
+        "row": 129,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 129,
+        "column": 3,
+        "column_letter": "C",
+        "value": "13.363"
+      },
+      {
+        "row": 129,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 129,
+        "column": 5,
+        "column_letter": "E",
+        "value": "12"
+      },
+      {
+        "row": 129,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 130,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-7:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 130,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 130,
+        "column": 3,
+        "column_letter": "C",
+        "value": "21"
+      },
+      {
+        "row": 130,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 130,
+        "column": 5,
+        "column_letter": "E",
+        "value": "98"
+      },
+      {
+        "row": 130,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,01"
+      },
+      {
+        "row": 131,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-7:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 131,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 131,
+        "column": 3,
+        "column_letter": "C",
+        "value": "7"
+      },
+      {
+        "row": 131,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 131,
+        "column": 5,
+        "column_letter": "E",
+        "value": "34"
+      },
+      {
+        "row": 131,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 132,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-7:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 132,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 132,
+        "column": 3,
+        "column_letter": "C",
+        "value": "16"
+      },
+      {
+        "row": 132,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 132,
+        "column": 5,
+        "column_letter": "E",
+        "value": "73"
+      },
+      {
+        "row": 132,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,01"
+      },
+      {
+        "row": 133,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-7:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 133,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 133,
+        "column": 3,
+        "column_letter": "C",
+        "value": "4"
+      },
+      {
+        "row": 133,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 133,
+        "column": 5,
+        "column_letter": "E",
+        "value": "20"
+      },
+      {
+        "row": 133,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 134,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-7:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 134,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 134,
+        "column": 3,
+        "column_letter": "C",
+        "value": "42"
+      },
+      {
+        "row": 134,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 134,
+        "column": 5,
+        "column_letter": "E",
+        "value": "196"
+      },
+      {
+        "row": 134,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,02"
+      },
+      {
+        "row": 135,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-19:SIP-1"
+      },
+      {
+        "row": 135,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 135,
+        "column": 3,
+        "column_letter": "C",
+        "value": "309"
+      },
+      {
+        "row": 135,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 135,
+        "column": 5,
+        "column_letter": "E",
+        "value": "0"
+      },
+      {
+        "row": 135,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 136,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-19:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 136,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 136,
+        "column": 3,
+        "column_letter": "C",
+        "value": "6"
+      },
+      {
+        "row": 136,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 136,
+        "column": 5,
+        "column_letter": "E",
+        "value": "28"
+      },
+      {
+        "row": 136,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 137,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-19:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 137,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 137,
+        "column": 3,
+        "column_letter": "C",
+        "value": "2"
+      },
+      {
+        "row": 137,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 137,
+        "column": 5,
+        "column_letter": "E",
+        "value": "10"
+      },
+      {
+        "row": 137,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 138,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-19:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 138,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 138,
+        "column": 3,
+        "column_letter": "C",
+        "value": "5"
+      },
+      {
+        "row": 138,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 138,
+        "column": 5,
+        "column_letter": "E",
+        "value": "21"
+      },
+      {
+        "row": 138,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 139,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-19:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 139,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 139,
+        "column": 3,
+        "column_letter": "C",
+        "value": "1"
+      },
+      {
+        "row": 139,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 139,
+        "column": 5,
+        "column_letter": "E",
+        "value": "6"
+      },
+      {
+        "row": 139,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 140,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-19:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 140,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 140,
+        "column": 3,
+        "column_letter": "C",
+        "value": "12"
+      },
+      {
+        "row": 140,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 140,
+        "column": 5,
+        "column_letter": "E",
+        "value": "56"
+      },
+      {
+        "row": 140,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,01"
+      },
+      {
+        "row": 141,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-14:SIP-1"
+      },
+      {
+        "row": 141,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 141,
+        "column": 3,
+        "column_letter": "C",
+        "value": "438"
+      },
+      {
+        "row": 141,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 141,
+        "column": 5,
+        "column_letter": "E",
+        "value": "0"
+      },
+      {
+        "row": 141,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 142,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-14:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 142,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 142,
+        "column": 3,
+        "column_letter": "C",
+        "value": "7"
+      },
+      {
+        "row": 142,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 142,
+        "column": 5,
+        "column_letter": "E",
+        "value": "31"
+      },
+      {
+        "row": 142,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 143,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-14:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 143,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 143,
+        "column": 3,
+        "column_letter": "C",
+        "value": "2"
+      },
+      {
+        "row": 143,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 143,
+        "column": 5,
+        "column_letter": "E",
+        "value": "11"
+      },
+      {
+        "row": 143,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 144,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-14:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 144,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 144,
+        "column": 3,
+        "column_letter": "C",
+        "value": "5"
+      },
+      {
+        "row": 144,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 144,
+        "column": 5,
+        "column_letter": "E",
+        "value": "24"
+      },
+      {
+        "row": 144,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 145,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-14:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 145,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 145,
+        "column": 3,
+        "column_letter": "C",
+        "value": "1"
+      },
+      {
+        "row": 145,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 145,
+        "column": 5,
+        "column_letter": "E",
+        "value": "6"
+      },
+      {
+        "row": 145,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 146,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-14:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 146,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 146,
+        "column": 3,
+        "column_letter": "C",
+        "value": "13"
+      },
+      {
+        "row": 146,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 146,
+        "column": 5,
+        "column_letter": "E",
+        "value": "63"
+      },
+      {
+        "row": 146,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,01"
+      },
+      {
+        "row": 147,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-8:SIP-1"
+      },
+      {
+        "row": 147,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 147,
+        "column": 3,
+        "column_letter": "C",
+        "value": "25.583"
+      },
+      {
+        "row": 147,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 147,
+        "column": 5,
+        "column_letter": "E",
+        "value": "24"
+      },
+      {
+        "row": 147,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 148,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-8:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 148,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 148,
+        "column": 3,
+        "column_letter": "C",
+        "value": "241"
+      },
+      {
+        "row": 148,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 148,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.121"
+      },
+      {
+        "row": 148,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,13"
+      },
+      {
+        "row": 149,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-8:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 149,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 149,
+        "column": 3,
+        "column_letter": "C",
+        "value": "83"
+      },
+      {
+        "row": 149,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 149,
+        "column": 5,
+        "column_letter": "E",
+        "value": "384"
+      },
+      {
+        "row": 149,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,05"
+      },
+      {
+        "row": 150,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-8:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 150,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 150,
+        "column": 3,
+        "column_letter": "C",
+        "value": "181"
+      },
+      {
+        "row": 150,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 150,
+        "column": 5,
+        "column_letter": "E",
+        "value": "841"
+      },
+      {
+        "row": 150,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,10"
+      },
+      {
+        "row": 151,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-8:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 151,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 151,
+        "column": 3,
+        "column_letter": "C",
+        "value": "49"
+      },
+      {
+        "row": 151,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 151,
+        "column": 5,
+        "column_letter": "E",
+        "value": "230"
+      },
+      {
+        "row": 151,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,03"
+      },
+      {
+        "row": 152,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-8:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 152,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 152,
+        "column": 3,
+        "column_letter": "C",
+        "value": "482"
+      },
+      {
+        "row": 152,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 152,
+        "column": 5,
+        "column_letter": "E",
+        "value": "2.243"
+      },
+      {
+        "row": 152,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,27"
+      },
+      {
+        "row": 153,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-16:SIP-1"
+      },
+      {
+        "row": 153,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 153,
+        "column": 3,
+        "column_letter": "C",
+        "value": "34.414"
+      },
+      {
+        "row": 153,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 153,
+        "column": 5,
+        "column_letter": "E",
+        "value": "32"
+      },
+      {
+        "row": 153,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 154,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-16:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 154,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 154,
+        "column": 3,
+        "column_letter": "C",
+        "value": "133"
+      },
+      {
+        "row": 154,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 154,
+        "column": 5,
+        "column_letter": "E",
+        "value": "619"
+      },
+      {
+        "row": 154,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,07"
+      },
+      {
+        "row": 155,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-16:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 155,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 155,
+        "column": 3,
+        "column_letter": "C",
+        "value": "91"
+      },
+      {
+        "row": 155,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 155,
+        "column": 5,
+        "column_letter": "E",
+        "value": "424"
+      },
+      {
+        "row": 155,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,05"
+      },
+      {
+        "row": 156,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-16:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 156,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 156,
+        "column": 3,
+        "column_letter": "C",
+        "value": "266"
+      },
+      {
+        "row": 156,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 156,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.238"
+      },
+      {
+        "row": 156,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,15"
+      },
+      {
+        "row": 157,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-16:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 157,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 157,
+        "column": 3,
+        "column_letter": "C",
+        "value": "45"
+      },
+      {
+        "row": 157,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 157,
+        "column": 5,
+        "column_letter": "E",
+        "value": "212"
+      },
+      {
+        "row": 157,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,03"
+      },
+      {
+        "row": 158,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-16:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 158,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 158,
+        "column": 3,
+        "column_letter": "C",
+        "value": "355"
+      },
+      {
+        "row": 158,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 158,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.651"
+      },
+      {
+        "row": 158,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,20"
+      },
+      {
+        "row": 159,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-18:SIP-1"
+      },
+      {
+        "row": 159,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 159,
+        "column": 3,
+        "column_letter": "C",
+        "value": "17.207"
+      },
+      {
+        "row": 159,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 159,
+        "column": 5,
+        "column_letter": "E",
+        "value": "16"
+      },
+      {
+        "row": 159,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 160,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-18:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 160,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 160,
+        "column": 3,
+        "column_letter": "C",
+        "value": "106"
+      },
+      {
+        "row": 160,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 160,
+        "column": 5,
+        "column_letter": "E",
+        "value": "491"
+      },
+      {
+        "row": 160,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,06"
+      },
+      {
+        "row": 161,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-18:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 161,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 161,
+        "column": 3,
+        "column_letter": "C",
+        "value": "72"
+      },
+      {
+        "row": 161,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 161,
+        "column": 5,
+        "column_letter": "E",
+        "value": "336"
+      },
+      {
+        "row": 161,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,04"
+      },
+      {
+        "row": 162,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-18:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 162,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 162,
+        "column": 3,
+        "column_letter": "C",
+        "value": "211"
+      },
+      {
+        "row": 162,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 162,
+        "column": 5,
+        "column_letter": "E",
+        "value": "983"
+      },
+      {
+        "row": 162,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,12"
+      },
+      {
+        "row": 163,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-18:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 163,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 163,
+        "column": 3,
+        "column_letter": "C",
+        "value": "36"
+      },
+      {
+        "row": 163,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 163,
+        "column": 5,
+        "column_letter": "E",
+        "value": "168"
+      },
+      {
+        "row": 163,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,02"
+      },
+      {
+        "row": 164,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-18:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 164,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 164,
+        "column": 3,
+        "column_letter": "C",
+        "value": "282"
+      },
+      {
+        "row": 164,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 164,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.310"
+      },
+      {
+        "row": 164,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,15"
+      },
+      {
+        "row": 165,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-20:SIP-1"
+      },
+      {
+        "row": 165,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 165,
+        "column": 3,
+        "column_letter": "C",
+        "value": "17.207"
+      },
+      {
+        "row": 165,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 165,
+        "column": 5,
+        "column_letter": "E",
+        "value": "16"
+      },
+      {
+        "row": 165,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 166,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-20:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 166,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 166,
+        "column": 3,
+        "column_letter": "C",
+        "value": "106"
+      },
+      {
+        "row": 166,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 166,
+        "column": 5,
+        "column_letter": "E",
+        "value": "491"
+      },
+      {
+        "row": 166,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,06"
+      },
+      {
+        "row": 167,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-20:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 167,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 167,
+        "column": 3,
+        "column_letter": "C",
+        "value": "72"
+      },
+      {
+        "row": 167,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 167,
+        "column": 5,
+        "column_letter": "E",
+        "value": "336"
+      },
+      {
+        "row": 167,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,04"
+      },
+      {
+        "row": 168,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-20:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 168,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 168,
+        "column": 3,
+        "column_letter": "C",
+        "value": "211"
+      },
+      {
+        "row": 168,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 168,
+        "column": 5,
+        "column_letter": "E",
+        "value": "983"
+      },
+      {
+        "row": 168,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,12"
+      },
+      {
+        "row": 169,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-20:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 169,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 169,
+        "column": 3,
+        "column_letter": "C",
+        "value": "36"
+      },
+      {
+        "row": 169,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 169,
+        "column": 5,
+        "column_letter": "E",
+        "value": "168"
+      },
+      {
+        "row": 169,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,02"
+      },
+      {
+        "row": 170,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-20:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 170,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 170,
+        "column": 3,
+        "column_letter": "C",
+        "value": "282"
+      },
+      {
+        "row": 170,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 170,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.310"
+      },
+      {
+        "row": 170,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,15"
+      },
+      {
+        "row": 171,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-21:SIP-1"
+      },
+      {
+        "row": 171,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 171,
+        "column": 3,
+        "column_letter": "C",
+        "value": "13.766"
+      },
+      {
+        "row": 171,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 171,
+        "column": 5,
+        "column_letter": "E",
+        "value": "13"
+      },
+      {
+        "row": 171,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 172,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-21:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 172,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 172,
+        "column": 3,
+        "column_letter": "C",
+        "value": "98"
+      },
+      {
+        "row": 172,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 172,
+        "column": 5,
+        "column_letter": "E",
+        "value": "456"
+      },
+      {
+        "row": 172,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,05"
+      },
+      {
+        "row": 173,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-21:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 173,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 173,
+        "column": 3,
+        "column_letter": "C",
+        "value": "67"
+      },
+      {
+        "row": 173,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 173,
+        "column": 5,
+        "column_letter": "E",
+        "value": "312"
+      },
+      {
+        "row": 173,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,04"
+      },
+      {
+        "row": 174,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-21:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 174,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 174,
+        "column": 3,
+        "column_letter": "C",
+        "value": "196"
+      },
+      {
+        "row": 174,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 174,
+        "column": 5,
+        "column_letter": "E",
+        "value": "912"
+      },
+      {
+        "row": 174,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,11"
+      },
+      {
+        "row": 175,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-21:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 175,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 175,
+        "column": 3,
+        "column_letter": "C",
+        "value": "34"
+      },
+      {
+        "row": 175,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 175,
+        "column": 5,
+        "column_letter": "E",
+        "value": "156"
+      },
+      {
+        "row": 175,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,02"
+      },
+      {
+        "row": 176,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-21:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 176,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 176,
+        "column": 3,
+        "column_letter": "C",
+        "value": "262"
+      },
+      {
+        "row": 176,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 176,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.216"
+      },
+      {
+        "row": 176,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,14"
+      },
+      {
+        "row": 177,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-24:SIP-1"
+      },
+      {
+        "row": 177,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 177,
+        "column": 3,
+        "column_letter": "C",
+        "value": "1.287"
+      },
+      {
+        "row": 177,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 177,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1"
+      },
+      {
+        "row": 177,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 178,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-24:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 178,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 178,
+        "column": 3,
+        "column_letter": "C",
+        "value": "89"
+      },
+      {
+        "row": 178,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 178,
+        "column": 5,
+        "column_letter": "E",
+        "value": "414"
+      },
+      {
+        "row": 178,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,05"
+      },
+      {
+        "row": 179,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-24:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 179,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 179,
+        "column": 3,
+        "column_letter": "C",
+        "value": "30"
+      },
+      {
+        "row": 179,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 179,
+        "column": 5,
+        "column_letter": "E",
+        "value": "142"
+      },
+      {
+        "row": 179,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,02"
+      },
+      {
+        "row": 180,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-24:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 180,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 180,
+        "column": 3,
+        "column_letter": "C",
+        "value": "67"
+      },
+      {
+        "row": 180,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 180,
+        "column": 5,
+        "column_letter": "E",
+        "value": "311"
+      },
+      {
+        "row": 180,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,04"
+      },
+      {
+        "row": 181,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-24:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 181,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 181,
+        "column": 3,
+        "column_letter": "C",
+        "value": "18"
+      },
+      {
+        "row": 181,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 181,
+        "column": 5,
+        "column_letter": "E",
+        "value": "85"
+      },
+      {
+        "row": 181,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,01"
+      },
+      {
+        "row": 182,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-24:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 182,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 182,
+        "column": 3,
+        "column_letter": "C",
+        "value": "178"
+      },
+      {
+        "row": 182,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 182,
+        "column": 5,
+        "column_letter": "E",
+        "value": "828"
+      },
+      {
+        "row": 182,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,10"
+      },
+      {
+        "row": 183,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-31:CIP-1(Cleaning Step #1)"
+      },
+      {
+        "row": 183,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 183,
+        "column": 3,
+        "column_letter": "C",
+        "value": "223"
+      },
+      {
+        "row": 183,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 183,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1.037"
+      },
+      {
+        "row": 183,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,12"
+      },
+      {
+        "row": 184,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-3:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 184,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 184,
+        "column": 3,
+        "column_letter": "C",
+        "value": "6"
+      },
+      {
+        "row": 184,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 184,
+        "column": 5,
+        "column_letter": "E",
+        "value": "29"
+      },
+      {
+        "row": 184,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 185,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-3:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 185,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 185,
+        "column": 3,
+        "column_letter": "C",
+        "value": "4"
+      },
+      {
+        "row": 185,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 185,
+        "column": 5,
+        "column_letter": "E",
+        "value": "20"
+      },
+      {
+        "row": 185,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 186,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-3:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 186,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 186,
+        "column": 3,
+        "column_letter": "C",
+        "value": "12"
+      },
+      {
+        "row": 186,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 186,
+        "column": 5,
+        "column_letter": "E",
+        "value": "57"
+      },
+      {
+        "row": 186,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,01"
+      },
+      {
+        "row": 187,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-3:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 187,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 187,
+        "column": 3,
+        "column_letter": "C",
+        "value": "2"
+      },
+      {
+        "row": 187,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 187,
+        "column": 5,
+        "column_letter": "E",
+        "value": "10"
+      },
+      {
+        "row": 187,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 188,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-3:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 188,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 188,
+        "column": 3,
+        "column_letter": "C",
+        "value": "16"
+      },
+      {
+        "row": 188,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 188,
+        "column": 5,
+        "column_letter": "E",
+        "value": "76"
+      },
+      {
+        "row": 188,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,01"
+      },
+      {
+        "row": 189,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-13:SIP-1"
+      },
+      {
+        "row": 189,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0,00"
+      },
+      {
+        "row": 189,
+        "column": 3,
+        "column_letter": "C",
+        "value": "600"
+      },
+      {
+        "row": 189,
+        "column": 4,
+        "column_letter": "D",
+        "value": "kg"
+      },
+      {
+        "row": 189,
+        "column": 5,
+        "column_letter": "E",
+        "value": "1"
+      },
+      {
+        "row": 189,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 190,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-13:CIP-1(Pre Rinse)"
+      },
+      {
+        "row": 190,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 190,
+        "column": 3,
+        "column_letter": "C",
+        "value": "5"
+      },
+      {
+        "row": 190,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 190,
+        "column": 5,
+        "column_letter": "E",
+        "value": "23"
+      },
+      {
+        "row": 190,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 191,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-13:CIP-1(Caustic Wash)"
+      },
+      {
+        "row": 191,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 191,
+        "column": 3,
+        "column_letter": "C",
+        "value": "12"
+      },
+      {
+        "row": 191,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 191,
+        "column": 5,
+        "column_letter": "E",
+        "value": "57"
+      },
+      {
+        "row": 191,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,01"
+      },
+      {
+        "row": 192,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-13:CIP-1(Post Rinse)"
+      },
+      {
+        "row": 192,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 192,
+        "column": 3,
+        "column_letter": "C",
+        "value": "5"
+      },
+      {
+        "row": 192,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 192,
+        "column": 5,
+        "column_letter": "E",
+        "value": "23"
+      },
+      {
+        "row": 192,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 193,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-13:CIP-1(Acid Wash)"
+      },
+      {
+        "row": 193,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 193,
+        "column": 3,
+        "column_letter": "C",
+        "value": "5"
+      },
+      {
+        "row": 193,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 193,
+        "column": 5,
+        "column_letter": "E",
+        "value": "24"
+      },
+      {
+        "row": 193,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 194,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-13:CIP-1(Final Rinse)"
+      },
+      {
+        "row": 194,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 194,
+        "column": 3,
+        "column_letter": "C",
+        "value": "5"
+      },
+      {
+        "row": 194,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 194,
+        "column": 5,
+        "column_letter": "E",
+        "value": "23"
+      },
+      {
+        "row": 194,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 195,
+        "column": 1,
+        "column_letter": "A",
+        "value": "  P-4:CIP-1(Cleaning Step #1)"
+      },
+      {
+        "row": 195,
+        "column": 2,
+        "column_letter": "B",
+        "value": "4,65"
+      },
+      {
+        "row": 195,
+        "column": 3,
+        "column_letter": "C",
+        "value": "474"
+      },
+      {
+        "row": 195,
+        "column": 4,
+        "column_letter": "D",
+        "value": "MT"
+      },
+      {
+        "row": 195,
+        "column": 5,
+        "column_letter": "E",
+        "value": "2.202"
+      },
+      {
+        "row": 195,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,26"
+      },
+      {
+        "row": 196,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Organic Liquid"
+      },
+      {
+        "row": 196,
+        "column": 5,
+        "column_letter": "E",
+        "value": "0"
+      },
+      {
+        "row": 196,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 197,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Emissions"
+      },
+      {
+        "row": 197,
+        "column": 5,
+        "column_letter": "E",
+        "value": "0"
+      },
+      {
+        "row": 197,
+        "column": 6,
+        "column_letter": "F",
+        "value": "0,00"
+      },
+      {
+        "row": 198,
+        "column": 1,
+        "column_letter": "A",
+        "value": "TOTAL"
+      },
+      {
+        "row": 198,
+        "column": 5,
+        "column_letter": "E",
+        "value": "845.729"
+      },
+      {
+        "row": 198,
+        "column": 6,
+        "column_letter": "F",
+        "value": "100,00"
+      },
+      {
+        "row": 199,
+        "column": 1,
+        "column_letter": "A",
+        "value": "   "
+      },
+      {
+        "row": 200,
+        "column": 1,
+        "column_letter": "A",
+        "value": "10. ANNUAL OPERATING COST (2024 prices) - PROCESS SUMMARY"
+      },
+      {
+        "row": 201,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Cost Item"
+      },
+      {
+        "row": 201,
+        "column": 2,
+        "column_letter": "B",
+        "value": "€"
+      },
+      {
+        "row": 201,
+        "column": 3,
+        "column_letter": "C",
+        "value": "%"
+      },
+      {
+        "row": 202,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Raw Materials"
+      },
+      {
+        "row": 202,
+        "column": 2,
+        "column_letter": "B",
+        "value": "2.449.000"
+      },
+      {
+        "row": 202,
+        "column": 3,
+        "column_letter": "C",
+        "value": "20,23"
+      },
+      {
+        "row": 203,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Labor-Dependent"
+      },
+      {
+        "row": 203,
+        "column": 2,
+        "column_letter": "B",
+        "value": "857.000"
+      },
+      {
+        "row": 203,
+        "column": 3,
+        "column_letter": "C",
+        "value": "7,08"
+      },
+      {
+        "row": 204,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Facility-Dependent"
+      },
+      {
+        "row": 204,
+        "column": 2,
+        "column_letter": "B",
+        "value": "7.172.000"
+      },
+      {
+        "row": 204,
+        "column": 3,
+        "column_letter": "C",
+        "value": "59,25"
+      },
+      {
+        "row": 205,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Laboratory/QC/QA"
+      },
+      {
+        "row": 205,
+        "column": 2,
+        "column_letter": "B",
+        "value": "128.000"
+      },
+      {
+        "row": 205,
+        "column": 3,
+        "column_letter": "C",
+        "value": "1,06"
+      },
+      {
+        "row": 206,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Consumables"
+      },
+      {
+        "row": 206,
+        "column": 2,
+        "column_letter": "B",
+        "value": "528.000"
+      },
+      {
+        "row": 206,
+        "column": 3,
+        "column_letter": "C",
+        "value": "4,36"
+      },
+      {
+        "row": 207,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Waste Treatment/Disposal"
+      },
+      {
+        "row": 207,
+        "column": 2,
+        "column_letter": "B",
+        "value": "846.000"
+      },
+      {
+        "row": 207,
+        "column": 3,
+        "column_letter": "C",
+        "value": "6,99"
+      },
+      {
+        "row": 208,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Utilities"
+      },
+      {
+        "row": 208,
+        "column": 2,
+        "column_letter": "B",
+        "value": "125.000"
+      },
+      {
+        "row": 208,
+        "column": 3,
+        "column_letter": "C",
+        "value": "1,03"
+      },
+      {
+        "row": 209,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Transportation"
+      },
+      {
+        "row": 209,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0"
+      },
+      {
+        "row": 209,
+        "column": 3,
+        "column_letter": "C",
+        "value": "0,00"
+      },
+      {
+        "row": 210,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Miscellaneous"
+      },
+      {
+        "row": 210,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0"
+      },
+      {
+        "row": 210,
+        "column": 3,
+        "column_letter": "C",
+        "value": "0,00"
+      },
+      {
+        "row": 211,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Advertising/Selling"
+      },
+      {
+        "row": 211,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0"
+      },
+      {
+        "row": 211,
+        "column": 3,
+        "column_letter": "C",
+        "value": "0,00"
+      },
+      {
+        "row": 212,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Running Royalties"
+      },
+      {
+        "row": 212,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0"
+      },
+      {
+        "row": 212,
+        "column": 3,
+        "column_letter": "C",
+        "value": "0,00"
+      },
+      {
+        "row": 213,
+        "column": 1,
+        "column_letter": "A",
+        "value": "Failed Product Disposal"
+      },
+      {
+        "row": 213,
+        "column": 2,
+        "column_letter": "B",
+        "value": "0"
+      },
+      {
+        "row": 213,
+        "column": 3,
+        "column_letter": "C",
+        "value": "0,00"
+      },
+      {
+        "row": 214,
+        "column": 1,
+        "column_letter": "A",
+        "value": "TOTAL"
+      },
+      {
+        "row": 214,
+        "column": 2,
+        "column_letter": "B",
+        "value": "12.104.000"
+      },
+      {
+        "row": 214,
+        "column": 3,
+        "column_letter": "C",
+        "value": "100,00"
+      },
+      {
+        "row": 215,
+        "column": 1,
+        "column_letter": "A",
+        "value": "   "
+      }
+    ]
+  }
+}

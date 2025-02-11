@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page config
-st.set_page_config(page_title="SuperPro Designer Web App", page_icon="🏭", layout="wide")
+st.set_page_config(page_title="SuperPro Designer Web App", page_icon="✨", layout="wide")
 
 # Initialize session state for authentication
 if "authenticated" not in st.session_state:
