@@ -54,9 +54,9 @@ with st.expander("Chart Settings", expanded=False):
             "Label Font Size", 8, 20, 15, help="Font size for axis labels")
         st.session_state.chart_settings.legend_font_size = st.slider(
             "Legend Font Size", 8, 18, 15, help="Font size for legend text")
-    with col2:
         st.session_state.chart_settings.tick_font_size = st.slider(
-            "Tick Label Font Size", 8, 16, 15, help="Font size for axis tick labels")
+            "Tick Label Font Size", 8, 16, 15, help="Font size for axis tick labels (both horizontal and vertical)")
+    with col2:
         st.session_state.chart_settings.value_font_size = st.slider(
             "Value Label Font Size", 8, 16, 15, help="Font size for value labels")
     
@@ -76,13 +76,25 @@ with st.expander("Chart Settings", expanded=False):
             "Chart Height", 6, 20, 8, help="Height of the chart in inches")
     
     st.subheader("Text Customization")
-    col1, col2 = st.columns(2)
+    
+    # Show titles checkbox in its own row
+    st.session_state.chart_settings.show_title = st.checkbox(
+        "Show Chart Titles", value=True, help="Toggle visibility of chart titles")
+    
+    # Prefix inputs and unit scale in a single row with equal columns
+    col1, col2, col3 = st.columns([1, 1, 1])
     with col1:
         st.session_state.chart_settings.title_prefix = st.text_input(
-            "Title Prefix", "Comparative", help="Prefix for chart titles")
+            "Title Prefix", "Comparative", help="Prefix for chart titles", 
+            disabled=not st.session_state.chart_settings.show_title)
     with col2:
         st.session_state.chart_settings.y_axis_prefix = st.text_input(
             "Y-Axis Label Prefix", "Annual Cost", help="Prefix for y-axis labels")
+    with col3:
+        st.session_state.chart_settings.unit_scale = st.selectbox(
+            "Cost Unit Scale", 
+            options=["€", "k€", "m€"],
+            help="Scale for cost values (except unit production costs)")
     
     if st.button("Reset to Defaults"):
         st.session_state.chart_settings = ChartConfig()

@@ -270,6 +270,15 @@ class ChartConfig:
     # Text customization
     title_prefix: str = "Comparative"
     y_axis_prefix: str = "Annual Cost"
+    show_title: bool = True
+    
+    # Unit scale settings
+    unit_scale: str = "€"  # Options: €, k€, t€, m€
+    scale_factors = {
+        "€": 1,
+        "k€": 1e-3,
+        "m€": 1e-6
+    }
 
 class ChartGenerator:
     """Class to handle chart generation for multiple processes"""
@@ -301,18 +310,31 @@ class ChartGenerator:
 
         fig, ax = plt.subplots(figsize=(self.config.figure_width, self.config.figure_height), dpi=self.config.dpi)
         
+        # Disable scientific notation
+        ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: format(int(x), ',')))
+        
+        # Apply unit scale if not unit production chart
+        scale_factor = self.config.scale_factors[self.config.unit_scale]
+        
         # Plot bars in original process order to maintain consistency
         bar_width = self.config.bar_width / len(processes)
         for i, process in enumerate(processes):
-            values = [data[process].get(cat, 0) for cat in categories]
+            values = [data[process].get(cat, 0) * scale_factor for cat in categories]
             ax.bar(x + i*bar_width, values, bar_width, label=process)
 
-        ax.set_ylabel(ylabel, fontsize=self.config.label_font_size)
-        ax.set_title(title, fontsize=self.config.title_font_size, fontweight='bold')
+        # Update ylabel with unit scale, removing any existing currency symbol
+        ylabel_base = ylabel.replace('(€)', '').strip()
+        ylabel_with_unit = f"{ylabel_base} ({self.config.unit_scale})"
+        ax.set_ylabel(ylabel_with_unit, fontsize=self.config.label_font_size)
+        if self.config.show_title:
+            ax.set_title(title, fontsize=self.config.title_font_size, fontweight='bold')
         ax.set_xticks(x + bar_width * (len(processes) - 1) / 2)
         ax.set_xticklabels(categories, rotation=45, ha='right', fontsize=self.config.tick_font_size)
         ax.legend(fontsize=self.config.legend_font_size)
-
+        
+        # Set y-axis tick label font size
+        ax.tick_params(axis='y', labelsize=self.config.tick_font_size)
+        
         plt.tight_layout()
         plt.savefig(os.path.join(self.output_dir, filename))
         plt.close()
@@ -359,11 +381,15 @@ class ChartGenerator:
                     fontsize=self.config.value_font_size, fontweight='bold', color='black')
         
         # Customize appearance
-        ax.set_ylabel(f'Unit Production Cost [{processes[0].currency} kg−1]', fontsize=self.config.label_font_size)
-        ax.set_title(f'{self.config.title_prefix} Unit Production Cost', fontsize=self.config.title_font_size, fontweight='bold')
+        ax.set_ylabel(f'Unit Production Cost [{processes[0].currency} kg⁻¹]', fontsize=self.config.label_font_size)
+        if self.config.show_title:
+            ax.set_title(f'{self.config.title_prefix} Unit Production Cost', fontsize=self.config.title_font_size, fontweight='bold')
         ax.set_xticks(x)
         ax.set_xticklabels([p.name for p in processes], fontsize=self.config.tick_font_size, rotation=45, ha='right')
         ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=self.config.legend_font_size)
+        
+        # Set y-axis tick label font size
+        ax.tick_params(axis='y', labelsize=self.config.tick_font_size)
         
         # Remove top and right spines
         ax.spines['top'].set_visible(False)
@@ -415,7 +441,7 @@ def main(json_files: List[str], scenario_names: List[str], output_dir: str, conf
         chart_gen.create_comparative_chart(
             data,
             f'Comparative {title}',
-            f'Annual Cost ({processes[0].currency})',
+            'Annual Cost',
             filename
         )
     
