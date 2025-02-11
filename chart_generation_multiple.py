@@ -405,6 +405,56 @@ class ChartGenerator:
                     bbox_inches='tight')
         plt.close()
 
+    def create_multi_panel_figure(self, selected_charts: List[Tuple[str, str]], output_filename: str, n_rows: int = None, n_cols: int = None):
+        """Create a multi-panel figure from selected charts with labels.
+        
+        Args:
+            selected_charts: List of tuples (chart_path, label) for each selected chart
+            output_filename: Name of the output file for the combined figure
+            n_rows: Number of rows in the grid layout (optional)
+            n_cols: Number of columns in the grid layout (optional)
+        """
+        n_charts = len(selected_charts)
+        if n_charts == 0:
+            return
+        
+        # Determine grid layout
+        if n_rows is None or n_cols is None:
+            # Default automatic layout
+            if n_charts <= 2:
+                n_rows, n_cols = 1, n_charts
+            else:
+                n_rows = (n_charts + 1) // 2  # Round up division
+                n_cols = 2
+        
+        # Create figure with subplots
+        fig = plt.figure(figsize=(self.config.figure_width * n_cols, 
+                                self.config.figure_height * n_rows))
+        
+        # Add each chart to the grid
+        for idx, (chart_path, label) in enumerate(selected_charts):
+            if not os.path.exists(chart_path):
+                continue
+                
+            # Create subplot
+            ax = fig.add_subplot(n_rows, n_cols, idx + 1)
+            
+            # Load and display chart image
+            img = plt.imread(chart_path)
+            ax.imshow(img)
+            ax.axis('off')
+            
+            # Add label in top-left corner
+            ax.text(0.02, 0.98, label, transform=ax.transAxes,
+                   fontsize=self.config.label_font_size, fontweight='bold',
+                   bbox=dict(facecolor='white', edgecolor='none', alpha=0.8))
+        
+        # Adjust layout and save
+        plt.tight_layout()
+        output_path = os.path.join(self.output_dir, output_filename)
+        plt.savefig(output_path, dpi=self.config.dpi, bbox_inches='tight')
+        plt.close()
+
 def main(json_files: List[str], scenario_names: List[str], output_dir: str, config: Optional[ChartConfig] = None):
     """Main function to process multiple JSON files and generate charts"""
     

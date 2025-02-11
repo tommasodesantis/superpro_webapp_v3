@@ -166,6 +166,10 @@ if uploaded_files:
                         
                         # Generate charts
                         try:
+                            # Initialize or clear charts data in session state
+                            if 'generated_charts' not in st.session_state:
+                                st.session_state.generated_charts = {}
+                            
                             generate_charts(json_files, scenario_names, charts_dir, config=st.session_state.chart_settings)
                             
                             # Display charts
@@ -180,6 +184,9 @@ if uploaded_files:
                                 'stacked_bar_chart.png'
                             ]
                             
+                            # Store available charts and their data
+                            available_charts = {}
+                            
                             # Display each chart with download button
                             for chart_file in chart_files:
                                 chart_path = os.path.join(charts_dir, chart_file)
@@ -187,6 +194,12 @@ if uploaded_files:
                                     # Read chart file
                                     with open(chart_path, 'rb') as f:
                                         chart_data = f.read()
+                                    
+                                    # Store chart data in session state
+                                    st.session_state.generated_charts[chart_file] = {
+                                        'data': chart_data,
+                                        'name': chart_file.replace('.png', '')
+                                    }
                                     
                                     # Display chart
                                     st.image(chart_data, caption=chart_file.replace('.png', ''))
@@ -196,7 +209,8 @@ if uploaded_files:
                                         label=f"Download {chart_file}",
                                         data=chart_data,
                                         file_name=chart_file,
-                                        mime="image/png"
+                                        mime="image/png",
+                                        key=f"download_gen_{chart_file}"  # Unique key for generated charts
                                     )
                                     
                                     st.markdown("---")  # Add separator between charts
@@ -208,3 +222,96 @@ if uploaded_files:
             
             except Exception as e:
                 st.error(f"An error occurred: {str(e)}")
+
+# Display generated charts and multi-panel figure interface if charts exist
+if 'generated_charts' in st.session_state and st.session_state.generated_charts:
+    # Display each chart with download button
+    for chart_file, chart_info in st.session_state.generated_charts.items():
+        # Display chart
+        st.image(chart_info['data'], caption=chart_info['name'])
+        
+        # Add download button
+        st.download_button(
+            label=f"Download {chart_file}",
+            data=chart_info['data'],
+            file_name=chart_file,
+            mime="image/png",
+            key=f"download_view_{chart_file}"  # Unique key for chart viewer
+        )
+        
+        st.markdown("---")  # Add separator between charts
+    
+    # Multi-panel figure creation section
+    st.subheader("Create Multi-panel Figure")
+    st.markdown("""
+    Select charts to include in a multi-panel figure and assign labels (a, b, c, etc.) to each selected chart.
+    The charts will be arranged in a grid layout.
+    """)
+    
+    # Create columns for chart selection and label assignment
+    selected_charts = []
+    
+    # Create a temporary directory for multi-panel figure creation
+    with tempfile.TemporaryDirectory() as temp_dir:
+        # Save charts to temporary files for multi-panel creation
+        for chart_file, chart_info in st.session_state.generated_charts.items():
+            temp_chart_path = os.path.join(temp_dir, chart_file)
+            with open(temp_chart_path, 'wb') as f:
+                f.write(chart_info['data'])
+            
+            col1, col2 = st.columns([3, 1])
+            with col1:
+                if st.checkbox(f"Include {chart_info['name']}", key=f"select_{chart_file}"):
+                    with col2:
+                        label = st.text_input("Label", 
+                                            key=f"label_{chart_file}",
+                                            max_chars=1,
+                                            placeholder="a",
+                                            help="Single letter label (a, b, c, etc.)")
+                        if label:
+                            selected_charts.append((temp_chart_path, label))
+        
+        if selected_charts:
+            # Grid layout controls
+            st.subheader("Grid Layout")
+            st.markdown("""
+            Specify the grid layout for your multi-panel figure. The charts will be arranged from left to right, top to bottom.
+            """)
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                n_rows = st.number_input("Number of Rows", min_value=1, max_value=len(selected_charts), 
+                                       value=min(2, len(selected_charts)),
+                                       help="Number of rows in the grid layout")
+            with col2:
+                n_cols = st.number_input("Number of Columns", min_value=1, max_value=len(selected_charts),
+                                       value=min(2, len(selected_charts)),
+                                       help="Number of columns in the grid layout")
+            
+            # Validate grid dimensions
+            total_cells = n_rows * n_cols
+            if total_cells < len(selected_charts):
+                st.error(f"Grid size ({n_rows}×{n_cols} = {total_cells} cells) is too small for {len(selected_charts)} charts. Please increase the number of rows or columns.")
+            else:
+                if st.button("Generate Multi-panel Figure"):
+                    with st.spinner("Creating multi-panel figure..."):
+                        # Generate multi-panel figure
+                        chart_gen = ChartGenerator(temp_dir, config=st.session_state.chart_settings)
+                        chart_gen.create_multi_panel_figure(selected_charts, "multi_panel_figure.png", n_rows=n_rows, n_cols=n_cols)
+                    
+                    # Display and offer download of multi-panel figure
+                    multi_panel_path = os.path.join(temp_dir, "multi_panel_figure.png")
+                    if os.path.exists(multi_panel_path):
+                        with open(multi_panel_path, 'rb') as f:
+                            multi_panel_data = f.read()
+                        
+                        st.subheader("Multi-panel Figure")
+                        st.image(multi_panel_data)
+                        
+                        st.download_button(
+                            label="Download Multi-panel Figure",
+                            data=multi_panel_data,
+                            file_name="multi_panel_figure.png",
+                            mime="image/png",
+                            key="download_multi_panel"  # Unique key for multi-panel figure
+                        )
